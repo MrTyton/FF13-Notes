@@ -1,0 +1,5405 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{xstring}
+\pagenumbering{gobble}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+
+\title{FF13 Any\%}
+\author{Mr.Tyton}
+
+\begin{document}
+\maketitle
+
+\newcommand{\syn}{\textbf{\textcolor{purple}{SYN}}}
+\newcommand{\sab}{\textbf{\textcolor{gray}{SAB}}}
+\newcommand{\com}{\textbf{\textcolor{red}{COM}}}
+\newcommand{\rav}{\textbf{\textcolor{blue}{RAV}}}
+\newcommand{\sen}{\textbf{\textcolor{yellow}{SEN}}}
+\newcommand{\med}{\textbf{\textcolor{green}{MED}}}
+
+\newenvironment{battle}[1]{\begin{tcolorbox}[title=\begin{center}#1\end{center},colbacktitle=red!50!white]}{\end{tcolorbox}}
+
+\newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=blue!50!white]}{\end{tcolorbox}}
+
+\newenvironment{upgrade}{\begin{tcolorbox}[title=\begin{center}UPGRADE\end{center},colbacktitle=purple!50!white]}{\end{tcolorbox}}
+
+\newenvironment{menu}{\begin{tcolorbox}[title=\begin{center}MENU\end{center},colbacktitle=black!50!white]}{\end{tcolorbox}}
+
+\newcommand{\first}{1}
+\newcommand{\second}{2}
+\newcommand{\third}{3}
+\newcommand{\fourth}{4}
+\newcommand{\fifth}{5}
+\newcommand{\sixth}{6}
+
+\newcommand{\paradigm}{\item \textbf{Paradigm}}
+\newcommand{\crystarium}{\item \textbf{Crystarium}}
+\newcommand{\equip}{\item \textbf{Equipment}}
+
+
+\newcommand{\stagger}{\textbf{STAGGER}}
+
+\newcommand{\paradigmline}[3]{#1 & #2 & #3}
+
+\newcommand{\paradigmdeck}[7]{\begin{tabular}{ c | c | c } #1 \\ \hline #2 \\ #3 \\ #4 \\ #5 \\ #6 \\ #7 \\ \end{tabular}}
+
+\newcommand{\paradigmdeckfour}[5]{\begin{tabular}{ c | c | c } #1 \\ \hline #2 \\ #3 \\ #4 \\ #5 \\  \end{tabular}}
+
+\newcommand{\paradigmdeckfive}[6]{\begin{tabular}{ c | c | c } #1 \\ \hline #2 \\ #3 \\ #4 \\ #5 \\ #6 \\ \end{tabular}}
+
+\newcommand{\save}[1]{Save prompt after cut-scene \##1}
+
+\newcommand{\pickup}[2]{Pick up the \textbf{#1} located #2.}
+
+\newcommand{\itemdrop}[2]{#1\% chance of a \textbf{#2}}
+
+\newcommand{\decep}[2]{\textbf{Deceptisol} on the #1, cancel on the #2.}
+
+\chapter{}
+
+\begin{battle}{Manasvin Warmech (1)}
+\end{battle}
+
+Camera Trick for the first dodge, stick by the right for the second.
+
+\begin{battle}{Pantheron \& PSICOM Warden}
+\end{battle}
+
+Camera Trick on the ramp and hope Sahz is nice.
+
+\begin{battle}{PSICOM Marauder \& PSICOM Encforcer x2}
+\itemdrop{19}{Phoenix Down}
+\end{battle}
+
+Legendary Dodge - Right around soldier, left around the first Pantheron, right Pantheron. If caught then fight.
+
+\begin{battle}{Legendary Dodge - Pantheron x2 \& PSICOM Warden x2}
+\begin{itemize}
+    \item Hand Grenade PSICOM Warden A
+    \item Repeat PSICOM Warden B
+    \item Repeat Pantheron A
+    \item Hand Grenade + Auto Battle if anyone is left alive
+\end{itemize}
+
+\itemdrop{19}{Phoenix Down}
+\end{battle}
+
+Camera trick after the first dodge in the Beta Behemoth hallway.
+
+\begin{battle}{Beta Behemoth}
+\begin{itemize}
+    \item Throw a potion to prevent Snow's interruption by the swipe.
+    \item Auto-battle twice
+    \item Auto-battle and execute at 1.5 ATB, should dodge swipe
+    \item Auto-battle twice
+    \item Auto-battle, execute at 1 ATB, should dodge swipe
+    \item Auto-battle until victory
+\end{itemize}
+\end{battle}
+
+\save{1}
+
+\begin{battle}{Myrmidon}
+\begin{itemize}
+    \item Auto battle and execute at 1.5 ATB
+    \item Auto-battle
+    \item Attack x1
+    \item Auto-battle and execute at 1.5 ATB
+    \item Auto-battle
+    \item Throw a potion at any point if anyone goes to less than 60hp
+    \item Auto-battle once staggered, try to interrupt.
+\end{itemize}
+
+\itemdrop{25}{Polymer Emulsion}
+\end{battle}
+
+\pickup{Power Circle}{in front}
+
+\begin{menu}
+\begin{itemize}
+    \item \textbf{Equipment}
+    \begin{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Optimize: Offensive (Power Circlet)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+Run through and fight if you fail it.
+
+\begin{battle}{Pantheron x2 \& PSICOM Aerial Recon x3}
+\begin{itemize}
+    \item Hand Grenade whatever PSICOM Aerial Recon will hit the most things. Swap targets after every one to change Gadot's damage.
+    \item Hand Grenades until the last thing left is not at full hp.
+\end{itemize}
+
+\itemdrop{27.1}{Phoenix Down}
+\end{battle}
+
+\begin{battle}{PSICOM Warden \& PSICOM Enforcer x2}
+\itemdrop{27.1}{Phoenix Down}
+\end{battle}
+
+\save{1}
+
+\chapter{}
+
+\begin{battle}{Pantheron}
+\begin{itemize}
+    \item Attack x2
+    \item Repeat
+\end{itemize}
+\end{battle}
+
+\begin{battle}{Zwerg Scandroid x3 (1)}
+\itemdrop{50}{Deceptisol}
+\end{battle}
+
+\begin{battle}{Zwerg Scandroid x3 (2)}
+\itemdrop{50}{Deceptisol}
+\end{battle}
+
+\begin{battle}{Pantheron x2}
+\begin{itemize}
+    \item Hand Grenade Pantheron B, not A
+\end{itemize}
+\itemdrop{12}{Fortisol}
+\end{battle}
+
+Camera trick the dogs after prompt.
+
+\begin{battle}{Zwerg Scandroid x4 (Lightning Lead)}
+\begin{itemize}
+    \item Attack after 32 seconds have passed. Should be when Sahz attacks the last one remaining, also go by audio cue.
+\end{itemize}
+\itemdrop{96}{Deceptisol} if got the 0 stars
+\end{battle}
+
+\pickup{Phoenix Down}{after the scandroids}
+
+\begin{battle}{Pantheron \& Zwerg Scandroid x2 (Lighting Lead)}
+\itemdrop{12}{Fortisol}
+\end{battle}
+
+\pickup{Gladius}{after the Pantheron}
+
+\begin{battle}{Pantheron \& Zwerg Scandroid x2 (Snow Lead)}
+\itemdrop{12}{Deceptisol}
+\end{battle}
+
+Access the menu in mid-air.
+
+\begin{menu}
+\begin{itemize}
+    \item \textbf{Settings}
+    \begin{itemize}
+        \item Battle Speed: Slow
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\begin{battle}{Zwerg Scandroid x4 (Vanille Lead) \textbf{Don't Pre-Empt}}
+\begin{itemize}
+    \item Attack x1
+    \item Wait 32 seconds or let Hope end the fight.
+\end{itemize}
+\itemdrop{96}{Fortisol}
+\end{battle}
+
+\pickup{Fortisol}{ beind the Scandroids}
+
+\begin{menu}
+\begin{itemize}
+    \item \textbf{Settings}
+    \begin{itemize}
+        \item Battle Speed: Normal
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\begin{battle}{Ghoul x3}
+\itemdrop{12}{Fortisol}
+\end{battle}
+
+\begin{battle}{Ghoul x2 \textbf{Pre-Empt}}
+\begin{itemize}
+    \item Blitz if both are close, Attack x2 otherwise
+    \item If Attack x2, change targets after Sahz hits one of them to stagger both.
+\end{itemize}
+\end{battle}
+
+\pickup{Power Wristband}{behind the Ghouls}
+
+\begin{menu}
+\begin{itemize}
+    \item \textbf{Equipment}
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Optimize: Offensive (Gladius \& Power Wristband)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\begin{battle}{Ghast}
+\begin{itemize}
+    \item Auto-battle twice
+    \item Attack x1
+    \item Wait 56 seconds, or let Sahz finish the fight
+\end{itemize}
+\itemdrop{96}{Deceptisol}
+\end{battle}
+
+Check shrouds. Minimum required 2 Deceptisols/Fortisols, safety is 4 Deceptisols/2 Fortisols.
+
+Ghoul hallway is as follows:
+
+\begin{enumerate}
+    \item Fortisol
+    \item Deceptisol
+    \item Deceptisol
+    \item Fortisol
+    \item Deceptisol
+\end{enumerate}
+
+If you have to fight any of them:
+
+\begin{battle}{Ghoul}
+\begin{itemize}
+    \item Wait 33 seconds before attacking
+    \item If Sahz doesn't get hit, once the chain gauge is 106.5\%
+\end{itemize}
+\end{battle}
+
+\textbf{Fortisol} on the elevator.
+
+\begin{battle}{Anima}
+\begin{itemize}
+    \item Blitz target the Right Manipulator. Execute on Anima after Snow + Sahz attack it
+    \item Blitz Anima again after swipe
+    \item When the Left Manipulator is dead, hover over the Right Manipulator again, execute on Anima
+    \item Auto-battle until the end of the fight.
+    \item Potion if anyone is red, especially after the arms respawn.
+\end{itemize}
+\end{battle}
+
+\save{2}
+
+\save{3}
+
+\chapter{}
+
+\renewcommand{\first}{[1] - Relentless Assault (\com/\rav/\rav)}
+
+\begin{battle}{Ghast x3}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Skip Tutorial, Auto-battle a Ghast that isn't the default
+        \item Blitz whatever Ghast would ensure both are hit, Attack x2 otherwise
+    \end{itemize}
+\end{itemize}
+\itemdrop{8}{Deceptisol}
+\end{battle}
+
+\begin{shop}{1\,000}
+\begin{itemize}
+    \item B\&W Outfitters
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Phoenix Down x2
+            \item Credit Chip x1 if didn't have 2 Phoenix Downs
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Magician's Mark
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{shop}
+
+\begin{menu}
+\begin{itemize}
+    \item \textbf{Paradigms}
+    \begin{itemize}
+        \item \paradigmdeckfour{%
+\paradigmline{Lightning}{Snow}{Vanille}}%
+{\paradigmline{(\rav)}{\rav}{\rav}}%
+{\paradigmline{\com}{\sen}{\med}}%
+{\paradigmline{\textit{[\com]}}{\textit{\com}}{\textit{\rav}}}%
+{\paradigmline{[\com]}{\com}{\rav}}
+    \end{itemize}
+    \item \textbf{Crystarium}
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 1 node, Strength +4
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item Both side nodes, Strength +18, HP +70
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    
+    \item \textbf{Equipment}
+    \begin{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Optimize: Balanced (Binding Rod \& Magician's Mark)
+        \end{itemize}
+        \item Sazh (Right 1)
+        \begin{itemize}
+            \item Optimize: Balanced (Vega 42s \& Doctor's Code
+        \end{itemize}
+        \item Snow (Left 2)
+        \begin{itemize}
+            \item Optimize: Balanced (Wild Boar)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Tri-Disaster (\rav/\rav/\rav)}
+
+\renewcommand{\second}{[2] Solidarity (\com/\sen/\med)}
+
+\renewcommand{\third}{[3] Aggression (\com/\com/\rav)}
+
+\renewcommand{\fourth}{[4] Aggression (\com/\com/\rav)}
+
+\begin{battle}{PSICOM Warden x7}
+\itemdrop{8}{Fortisol} \itemdrop{52.2}{Phoenix Down}
+\end{battle}
+
+Start walking backwards once you cross the line in the center of the bridge, Snow will start talking and it makes the cut-scene happen faster.
+
+\begin{battle}{Manasvin Warmech (2)}
+\begin{itemize}
+    \item \third
+    \begin{itemize}
+        \item Libra
+        \item Auto-battle, switch when Lightning executes third attack or gets hit
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-battle
+        \item Switch after Vanille's third aero
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Potion if Lightning has less than 120 hp
+        \item Auto-chain, execute when Crystal Rain text appears on screen.
+        \item \textbf{STAGGER}
+        \item Shift after Vanille's third aero
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-battle
+        \item Shift after Vanille's third aero
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Shift after Provoke
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-battle two attacks
+        \item Auto-battle twice
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-battle
+    \end{itemize}
+\itemdrop{8}{Deceptisol}
+\end{itemize}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \item \textbf{Paradigms}
+    \begin{itemize}
+        \item \paradigmdeckfive{%
+        \paradigmline{Lightning}{Vanille}{Sagz}}%
+{\paradigmline{\textit{\com}}{\textit{\rav}}{\textit{\rav}}}%
+{\paradigmline{\com}{\med}{\rav}}%
+{\paradigmline{[\rav]}{\rav}{\rav}}%
+{\paradigmline{[\rav]}{\rav}{\rav}}%
+{\paradigmline{[\com]}{\rav}{\rav}}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Relentless Assault (\com/\rav/\rav)}
+\renewcommand{\second}{[2] Diversity (\com/\med/\rav)}
+\renewcommand{\third}{[3] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\fourth}{[4] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\fifth}{[5] Relentless Assault (\com/\rav/\rav)}
+
+\decep{frog bridge}{frogs}
+
+\begin{battle}{Alpha Behemoth}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle
+        \item Shift after swipe connects
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-chain twice
+        \item Shift after Sahz's second Fire in the second string
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain
+        \item Shift after Vanille's third Aero
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Attack x3
+        \item \textbf{STAGGER}. Try to time shfit so that it happens during this animation
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat
+        \item ATB Refresh with [1] until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{8}{Deceptisol}
+\end{battle}
+
+\decep{3 sentry bots}{3 soldiers}
+
+\decep{final jump}{3 sentries after the cut-scene}
+
+\pickup{Phoenix Down}{right of the stairs} \pickup{2 Librascopes}{left of the stairs}
+
+\begin{battle}{Garuda Interceptor}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Attack x3
+        \item Shift mid-air
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat
+        \item Repeat 1 attack, prevents Lightning's interruption
+        \item \stagger
+        \item Repeat
+        \item Shift mid-air
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat if not dead
+        \item Skip 2 cutscenes
+        \item Attack x3
+        \item Shift mid-air
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-chain
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain
+        \item Shift after either Vanille's third Aero or after Sazh's third Fire, whichever is first
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-chain twice
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item \stagger
+        \item Repeat until victory, ATB refresh with [5]
+    \end{itemize}
+\end{itemize}
+\itemdrop{8}{Fortisol}
+\end{battle}
+
+\save{1}
+
+\renewcommand{\first}{[1] Commando (\com)}
+\renewcommand{\second}{[2] Sentinel (\sen)}
+\renewcommand{\third}{[3] Ravager (\rav)}
+
+\begin{battle}{PSICOM Ranger x3\, Sitris \& Nix}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Attack x3 PSICOM Ranger C
+        \item Repeat on whichever Ranger is at full hp
+    \end{itemize}
+    \item Skip cutscene
+    \item \first
+    \begin{itemize}
+        \item Attack-Ruin-Attack
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Froststrike x3
+        \item Repeat 2 Froststrikes
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Shift after ATB Charge attacks end
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat. If interrupted, cancel and repeat again.
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat
+        \item Repeat one Froststrike
+    \end{itemize}
+    \item Repeat between [1] and [3] until ATB Charge attacks, then switch to [2]
+    \item X when Gestalt fills, Select skips animation
+\end{itemize}
+\itemdrop{8}{Fortisol} \itemdrop{27.1}{Phoenix Down}
+\end{battle}
+
+\chapter{}
+
+\renewcommand{\first}{[1] Relentless Assault (\com/\rav/\rav)}
+
+\begin{battle}{Pantheron x4}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Blitz Pantheron C
+        \item Attack x3 Pantheron A
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Fortisol}
+\end{battle}
+
+\decep{last jump}{Pulsework Soldier}
+
+\begin{menu}
+\begin{itemize}
+    \item \textbf{Paradigms}
+    \begin{itemize}
+        \item \paradigmdeckfive{%
+        \paradigmline{Sahz}{Vanille}{}}%
+{\paradigmline{\rav}{\rav}{}}%
+{\paradigmline{\syn}{\sab}{}}%
+{\paradigmline{\rav}{\med}{}}%
+{\paradigmline{\textit{\rav}}{\textit{[\sab]}}{}}%
+{\paradigmline{[\rav]}{\rav}{}}
+    \end{itemize}
+    \item \textbf{Crystarium}
+    \begin{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 2 nodes, Water
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Dualcasting (\rav/\rav)}
+\renewcommand{\second}{[2] Tide Turner (\syn/\sab)}
+\renewcommand{\third}{[3] Yin \& Yang (\rav/\med)}
+\renewcommand{\fourth}{[4] Undermine (\rav/\sab)}
+\renewcommand{\fifth}{[5] Dualcasting (\rav/\rav)}
+
+
+\begin{battle}{Pulsework Solider \& Watchdrone x3}
+\begin{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Select Libra, hover over Pulsework Soldier; Libra on Watchdrone C after Vanille starts casting
+        \item Auto-chain and shift after Sazh's third fire
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-support twice (Vanille first, Sahz second)
+        \item Shift after Vanille's string
+    \end{itemize}
+    \item \textit{If Pulsework Soldier staggered with Vanille's first cast}
+    \begin{itemize}
+        \item \first
+        \begin{itemize}
+            \item Auto-chain 2 fires
+            \item Shift after Vanille finishes
+        \end{itemize}
+        \item \fifth
+        \begin{itemize}
+            \item Auto-chaiun
+            \item When the second Watchdrone will die to Vanille, let her start the chain and then Auto-chain the Soldier
+            \item ATB refresh with [1]
+        \end{itemize}
+    \end{itemize}
+    \item \textit{Else if it staggered with the second cast}
+    \begin{itemize}
+        \item \first
+        \begin{itemize}
+            \item After Vanille starts casting, Auto-chain the Pulsework Soldier
+            \item ATB refresh with [1]
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Aegisol}
+\end{battle}
+
+\renewcommand{\first}{[1] Tri-disaster (\rav/\rav/\rav)}
+\renewcommand{\fourth}{[4] Variety (\rav/\sab/\med)}
+
+\begin{battle}{Pulsework Soldier Pre-Empt}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-chain
+        \item \stagger
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Immediately shift. Vanille should be casting Deshell
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-chain twice
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Aegisol}
+\end{battle}
+
+\pickup{Ninurta}{behind the Pulsework Soldier}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Lightning}{Vanille}}%
+{\paradigmline{\rav}{\com}{\rav}}%
+{\paradigmline{\syn}{\com}{\sab}}%
+{\paradigmline{\rav}{\com}{(\rav)}}%
+{\paradigmline{\textit{\rav}}{\textit{\rav}}{\textit{\sab}}}%
+{\paradigmline{\rav}{[\rav]}{\rav}}%
+{\paradigmline{\rav}{[\rav]}{\rav}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sahz
+        \begin{itemize}
+            \item Synergist
+            \begin{itemize}
+                \item 6 Nodes, All of them
+            \end{itemize}
+        \end{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 2 nodes, Powerchain
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 3 nodes, 1 Up, Strength +10 to the side
+                \item 2 nodes, HP +15 after Water
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item 4 nodes, Magic +4, second to last
+            \end{itemize}
+        \end{itemize}
+        \item Hope
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 2 nodes, Magic +4, HP +20
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Relentless Assault (\rav/\com/\rav)}
+\renewcommand{\second}{[2] Bully (\syn/\com/\sab)}
+\renewcommand{\third}{[3] Relentless Assault (\rav/\com/\rav)}
+\renewcommand{\fourth}{[4] Smart Bomb (\rav/\rav/\sab)}
+\renewcommand{\fifth}{[5] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
+
+\begin{battle}{Incubus x2 \& Succubus}
+\begin{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Hover over Succubus then shfit
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-support, puts Bravery on Lightning
+        \item \textit{If the Succubus dies}
+        \begin{itemize}
+            \item Libra
+            \item Faith Vanille
+        \end{itemize}
+        \item \textit{Else}
+        \begin{itemize}
+            \item Faith Vanille
+            \item Libra after the Succubus dies
+        \end{itemize}
+        \item Shift after Lightning's third attack
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-chain with ATB refresh to [3] until victory.
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Aegisol} \itemdrop{57.8}{Sturdy Bones}
+\end{battle}
+
+\begin{battle}{Dreadnaught}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Libra
+        \item Auto-chain after Dreadnaught's attack
+        \item Shift after Lightning's third spell
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Shift after Lightning's third spell
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-support, puts Bravery on Lightning, shift immediately
+    \end{itemize}
+    \item \fourth \textit{if missing either Deprotect or Deshell else} \sixth
+    \begin{itemize}
+        \item Auto-chain
+        \item Shift after Lightning's third spell in the second string
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-chain
+        \item Potion
+        \item \stagger
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-chain
+        \item ATB refresh with [3] until victory
+    \end{itemize}
+    \item Skip cutscene
+    \item Auto-chain
+    \item \sixth
+    \begin{itemize}
+        \item Shift after Lightning's third spell
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-support, puts Bravery on Lightning
+        \item Faith Vanille
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain two spells
+        \item Shift after Lightning's third spell
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-chain
+        \item Potion
+        \item Auto-chain
+        \item Shift when Wrecking Ball is about to start
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item \stagger, shift immediately
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-chain twice
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Shift after Vanille starts casting Deshell
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-chain
+        \item ATB refresh with [3] until victory
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \equip
+    \begin{itemize}
+        \item Hope
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Weapon $\rightarrow$ Ninurta
+                \item Accessory $\rightarrow$ Silver Bangle
+            \end{itemize}
+        \end{itemize}
+        \item Sahz (Right 1)
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item Doctor's Code
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Slash and Burn (\com/\rav)}
+\renewcommand{\second}{[2] Supersoldier (\com/\syn)}
+
+\begin{battle}{Corpse Gunner x4 \& PSICOM Tracker}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Attack-Blitz PSICOM Tracker
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Potion if low on Hp
+        \item Repeat PSICOM Tracker
+        \item Potion if need
+        \item Blitz a good target
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat on good targets until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Aegisol} \itemdrop{61.5}{Phoenix Down}
+\end{battle}
+
+Hug the left wall to dodge on the turn before the very narrow passageway
+
+\begin{battle}{PSICOM Tracker x2}
+\itemdrop{6}{Aegisol} \itemdrop{19}{Phoenix Down}
+\end{battle}
+
+Try to hit 25 Pulsework Soldiers in the minigame.
+
+\pickup{20 Thickened Hides}{in the left treasure sphere chest after minigame}
+
+\pickup{Phoenix Down}{just up from the soldiers in the third dodge, costs 7 seconds, for money safety if you want}
+
+\begin{menu}
+\begin{itemize}
+    \item \paradigm
+    \begin{itemize}
+        \item \paradigmdeckfive{%
+\paradigmline{Lightning}{Hope}{}}%
+{\paradigmline{\com}{\rav}{}}%
+{\paradigmline{\textit{\com}}{\textit{\syn}}{}}%
+{\paradigmline{\med}{\med}{}}%
+{\paradigmline{\rav}{\rav}{}}%
+{\paradigmline{\rav}{\rav}{}}%
+    \end{itemize}
+    \item \equip
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Weapon $\rightarrow$ Blazefire Saber
+                \item Accessory $\rightarrow$ Doctor's Code
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\begin{shop}{10\,350}
+\begin{itemize}
+    \item Lenora's Garage
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Weapons
+            \begin{itemize}
+                \item Power Circle
+                \item Airwing
+                \item Gladius
+            \end{itemize}
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Polymer Emulsion up to x49
+        \end{itemize}
+    \end{itemize}
+    \item Unicorn Mart
+    \begin{itemize}
+        \item Potion x11
+    \end{itemize}
+\end{itemize}
+\end{shop}
+\begin{upgrade}
+\begin{itemize}
+    \item Upgrade
+    \begin{itemize}
+        \item Weapons
+        \begin{itemize}
+            \item Blazefire Saber
+            \begin{itemize}
+                \item Thickened Hide - All (Level 2, 1.75/2x EXP)
+                \item \textit{If it's not at 2x EXP, until it hits 2x EXP}
+                \begin{enumerate}
+                    \item Cie'th Tear - All
+                    \item Tear of Frustation - All
+                    \item Whatever organics are left
+                \end{enumerate}
+                \item Polymer Emulsion - All (Level 13)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{upgrade}
+
+\renewcommand{\first}{[1] Slash \& Burn (\com/\rav)}
+\renewcommand{\second}{[2] Supersoldier (\com/\syn)}
+\renewcommand{\fourth}{[4] Dualcasting (\rav/\rav)}
+\renewcommand{\fifth}{[5] Dualcasting (\rav/\rav)}
+
+\begin{battle}{Odin}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Attack x2
+        \item Repeat, shift to prevent Lightning's backflip
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Potion
+        \item Auto-chain
+        \item Potion
+        \item Water-Thunder-Water
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item \textit{If Odin is targeting Lightning}
+        \begin{itemize}
+            \item Potion when he uses Seismic Strike or Skyward Swing
+            \item Repeat in Ullr's Shield only
+        \end{itemize}
+        \item \textit{Else if targeting Hope}
+        \begin{itemize}
+            \item Repeat
+            \item Potion
+            \item Repeat
+            \item Refresh with [4]/[5]
+        \end{itemize}
+    \end{itemize}
+    \item X when gestalt is filled, Select to skip animation
+\end{itemize}
+\end{battle}
+
+Run backwards to trigger cut-scene
+
+\begin{battle}{PSICOM Ranger x3 \& Ulhan x2}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-battle, cancel after first Blitz. If too slow on this input then you will probably die
+        \item Ruin
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain
+        \item Summon
+        \item Auto-chain
+    \end{itemize}
+    \begin{itemize}
+        \item Auto-chain the other Ulhan twice
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Water x4, COM-buffered into:
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Blitz x2
+        \item ATB refresh with [2] until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Deceptisol} \itemdrop{27.1}{Phoenix Down}
+\end{battle}
+
+\save{1}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sahz}{Vanille}{}}%
+{\paradigmline{\com}{\rav}{}}%
+{\paradigmline{\texit{\syn}}{\textit{\sab}}{}}%
+{\paradigmline{\com}{(\sab)}{}}%
+{\paradigmline{\rav}{\rav}{}}%
+{\paradigmline{[\rav]}{(\sab)}{}}%
+{\paradigmline{[\com]}{\rav}{}}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Optimize: Balanced (Vega 42s \& Power Wristband)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Slash \& Burn (\com/\rav)}
+\renewcommand{\second}{[2] Tide Turner (\syn/\sab)}
+\renewcommand{\third}{[3] Divide \& Conquer (\com/\sab)}
+\renewcommand{\fourth}{[4] Dualcasting (\rav/\rav)}
+\renewcommand{\fifth}{[5] Undermine (\rav/\sab)}
+\renewcommand{\sixth}{[6] Slash \& Burn (\com/\rav)}
+
+\decep{Pulsework Soldier + Bomb if in bad spot}{their backs}
+
+\pickup{Auric Amulet}{side pathway}
+
+\pickup{Phoenix Down}{side rock hallway to the right before the platforms}
+
+\begin{battle}{Bomb \& Pulsework Soldier (1) Pre-Empt}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Bravery Sazh, Immediately shift
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Attack x3 Bomb
+        \begin{itemize}
+            \item If Vanille staggers on the first cast, cancel after first attack
+            \item If Vanille staggers on the second cast, cancel after the second attack
+        \end{itemize}
+        \item Repeat after Vanille starts casting
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat with refreshes with [6] until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Deceptisol}
+\end{battle}
+
+\begin{battle}{Pulsework Soldier x2 Pre-Empt}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Bravery Sazh, Immediately shift
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-battle Pulsework Soldier B
+        \begin{itemize}
+            \item If Vanille staggered with the first cast, cancel after the second
+        \end{itemize}
+        \item Auto-battle and switch to Pulsework Soldier A after Vanille starts casting
+        \item Auto-battle a Deprotected Pulsework Soldier until both are Deprotected
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle with refreshes with [6] until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Aegisol}
+\end{battle}
+
+\begin{battle}{Bomb \& Pulsework Soldier (2) Pre-Empt}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Bravery Sazh, Immediately shift
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle Pulsework Soldier, Bomb should die by Vanille.
+        \item If interrupted throw some autos on the Bomb, and then use [3] to get stagger time.
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-chain one Fire
+        \item \stagger
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-battle, execute when Deprotect lands
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle with refreshes with [6] until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{6}{Aegisol}
+\end{battle}
+
+If you don't get the pre-empt on the following fight don't retry, just do the alternate strategy
+
+\begin{battle}{Bomb x2 Pre-Empt $|$ Not Pre-Empt}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-support
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle Bomb B
+    \end{itemize}
+\end{itemize}
+\columnbreak
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-support Vanille (Faith)
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item If neither Bomb is self-destructing, Auto-battle
+        \item If at least one is self-destructing, use single attacks to move Sahz away
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+\itemdrop{6}{Aegisol}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \equip
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item Power Wristband
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item Magician's Mark
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\pickup{Fortisol}{right side of the pathway}
+
+\decep{before cave entrance}{back of the bombs}
+
+\pickup{300 Gil}{treasure chest in the cave}
+
+\save{1}
+
+\save{2}
+
+\chapter{}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Hope}{Lightning}{}}%
+{\paradigmline{\textit{\rav}}{\textit{\com}}{}}%
+{\paradigmline{(\med)}{(\com)}{}}%
+{\paradigmline{\syn}{(\rav)}{}}%
+{\paradigmline{\rav}{\rav}{}}%
+{\paradigmline{\rav}{[\rav]}{}}%
+{\paradigmline{[\rav]}{\com}{}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Hope
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 10 Nodes, Water
+                \item If can't get it, make sure you do it before Feral Behemoth
+            \end{itemize}
+        \end{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Commander
+            \begin{itemize}
+                \item Back 2 Up 2, Powerchain on the side
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 6 nodes, Aquastrike
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Optimize: Balanced (Blazefire Saber, Power Wristband)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Slash \& Burn (\com/\rav)}
+\renewcommand{\second}{[2] War \& Peace (\med/\com)}
+\renewcommand{\third}{[3] Archmage (\syn/\rav)}
+\renewcommand{\fourth}{[4] Dualcasting (\rav/\rav)}
+\renewcommand{\fifth}{[5] Dualcasting (\rav/\rav)}
+\renewcommand{\sixth}{[6] Slash \& Burn (\com/\rav)}
+
+Camera Trick after the fourth dodge after the second elevator.
+
+\begin{battle}{Silver Lobo x2}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Libra
+        \item Auto-chain two Fires
+        \item Shift after Lightning's third attack
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Fira-Fire
+        \item Shift after Lightning's fourth attack
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Use Auto-chain if Lightning doesn't immediately powerchain, else shift
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain until \stagger
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{1}{Fortisol}
+\end{battle}
+
+\begin{battle}{Crawler x4 Pre-Empt}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Ready Fira, execute when Lightning starts attacking
+    \end{itemize}
+\end{itemize}
+\itemdrop{1}{Aegisol}
+\end{battle}
+If you didn't get Hope's Water, get it now.
+
+\begin{battle}{Feral Behemoth (Hope Lead)}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Libra
+        \item Auto-chain two Waters
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain twice
+        \item Shift after Lightning's fourth attack, Water
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-chain twice
+        \item Shift after Lightning's fourth attack, Water, try to COM-buffer into
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-chain until victory, execute early if need to interrupt
+    \end{itemize}
+\end{itemize}
+\itemdrop{1}{Fortisol}
+\end{battle}
+
+\begin{battle}{Crawler x10 No Pre-Empt}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Fire-Fira Crawler E
+        \item Shift after Lightning's second Blitz, try to cancel ready animation
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat
+        \item Potion
+        \item Repeat
+        \item Shift after Lightning's final attack in the third string
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Continue the pattern until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{1}{Fortisol}
+\end{battle}
+
+\begin{battle}{Feral Behemoth (Lightning Lead)}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain
+        \item Aquastrike x4
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat twice, executing early to interrupt if needed
+        \item COM-buffer last strike into
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle
+    \end{itemize}
+\end{itemize}
+\end{battle}
+
+\decep{cutscene}{bike} \pickup{Ethersol}{treasure chest before bike}
+
+\begin{battle}{Corps Marksman x2 \& Milvus Velocycle}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Ruin
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-chain
+        \item Summon
+        \item Auto-chain, refreshing with [4], until Milvus Velocycle's chain is 430\%
+        \item X - Gestalt
+        \item Y - Zantetsuken
+    \end{itemize}
+\end{itemize}
+\itemdrop{1}{Aegisol}
+\end{battle}
+Activate the elevator before doing the menu.
+\begin{menu}
+\begin{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 3 nodes, Fire
+            \end{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 1 node 1 up, Magic +6 on the side
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Hope
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory: Magician's Mark
+            \end{itemize}
+        \end{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory: Doctor's Code
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+Activate \textbf{Fortisol}, \textbf{Ethersol}.
+
+\begin{battle}{Aster Protoflorian}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Ruin x4
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Libra
+        \item Fire-Thunder-Fire-Thunder
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item \textbf{Efflorescence}
+        \item Potion
+        \item Repeat
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat while potioning as needed. If Hope is hit at any point, Potion, if it's Lightning can wait for second attack.
+        \item Refresh with [5] when needed
+    \end{itemize}
+    \item Until chain is 180\%:
+    \begin{itemize}
+        \item \textbf{Exoproofing Fire} : Water-Thunder-Water-Thunder, then chill in [2] until changes Exoproof
+        \item \textbf{Exoproofing Ice} : Auto-chain
+        \item \textbf{Exoproofing Lightning} : Water x4
+        \item \textbf{Exoproofing Water} : Thunder x4
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat
+        \item \stagger
+        \item Repeat
+        \item ATB Refresh with [5] to maximize Hope's damage until chain is about 610\%-650\%
+        \item Summon
+        \item Repeat
+        \item ATB Refresh
+        \item Repeat until stagger is about to expire, or chain is about 810\% and Odin's HP ends to the left of the T
+        \item X - Gestalt
+        \item Y - Zantetsuken
+    \end{itemize}
+    \item If failed to kill, retry
+\end{itemize}
+\end{battle}
+\save{1}
+
+\save{3}
+
+\chapter{}
+
+\pickup{Belladonna Wand}{on the ledge before the save point}
+
+\begin{shop}{21\,960 min pref 22\,600}
+\begin{itemize}
+    \item Creature Comforts
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Weapons
+            \begin{itemize}
+                \item Belladonna Wand
+            \end{itemize}
+            \item Accessories
+            \begin{itemize}
+                \item Auric Amulet
+            \end{itemize}
+            \item Components
+            \begin{itemize}
+                \item Everything except Sturdy Bones, Turbojets
+            \end{itemize}
+            \item Items
+            \begin{itemize}
+                \item Phoenix Downs
+            \end{itemize}
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Sturdy Bone up to 72
+        \end{itemize}
+    \end{itemize}
+    \item Lenora's Garage
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Polymer Emulsion x86 (at max do what you can)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{shop}
+
+\begin{upgrade}
+\begin{itemize}
+    \item Upgrade
+    \begin{itemize}
+        \item Accessories
+        \begin{itemize}
+            \item Power Wristband
+            \begin{itemize}
+                \item Sturdy Bone x36 (Level 2, 3x EXP)
+                \item Polymer Emulsion x17 (*)
+            \end{itemize}
+        \end{itemize}
+        \item Weapons
+        \begin{itemize}
+            \item Vega 42s
+            \begin{itemize}
+                \item Study Bone all (Level 3, 3x EXP)
+                \item Polymer Emulsion all (Level 20)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{upgrade}
+\pickup{Doctor's Code}{on the side path past the circle of birds}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Vanille}{Sahz}{}}%
+{\paradigmline{\rav}{\com}{}}%
+{\paradigmline{(\sab)}{\com}{}}%
+{\paradigmline{\textit{\sab}}{\textit{\syn}}{}}%
+{\paradigmline{\rav}{\rav}{}}%
+{\paradigmline{[\sab]}{(\rav)}{}}%
+{\paradigmline{[\sab]}{\com}{}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item 7 nodes, Poison
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 6 nodes up 1, Fire on the side
+            \end{itemize}
+        \end{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Synergist
+            \begin{itemize}
+                \item 7 nodes, Enwater
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 1 node, HP +30
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory: Doctor's Code
+            \end{itemize}
+        \end{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Power Wristband
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Slash \& Burn (\rav/\com)}
+\renewcommand{\second}{[2] Divide \& Conquer (\sab/\com)}
+\renewcommand{\third}{[3] Tide Turner (\sab/\syn)}
+\renewcommand{\fourth}{[4] Dualcasting (\rav/\rav)}
+\renewcommand{\fifth}{[5] Undermine (\sab/\rav)}
+\renewcommand{\sixth}{[6] Divide \& Conquer (\sab/\com)}
+\newpage
+If you have at least 2 \textbf{Fortisols}, can use it on this fight.
+\begin{battle}{Enki \& Enlil $|$ Fortisol}
+\begin{multicols}{2}
+\begin{itemize}
+    \item If both Enki and Enlil target the same character, Retry
+    \item \third
+    \begin{itemize}
+        \item Librascope
+        \item Deprotect-Poison-Deprotect
+        \item Repeat Deprotect-Poison
+        \item Potion
+        \item Shift after Sazh casts Vigilance on Vanille
+    \end{itemize}
+    \item \textit{If Enki has two debuffs and enough chain duration}
+    \begin{itemize}
+        \item \fourth
+        \begin{itemize}
+            \item Auto-chain or Fire-Aero-Fire until \stagger
+            \item Shift after Sazh's third spell
+        \end{itemize}
+    \end{itemize}
+    \item \textit{Else}
+    \begin{itemize}
+        \item \fifth
+        \begin{itemize}
+            \item Repeat as necessary
+        \end{itemize}
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Ready Poison x3 and execute after Sazh's third attack
+        \item Potion
+        \item ATB refresh after Sazh's third attack in his second string
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat after Sazh's third attack
+        \item If Enki will die to Sazh's next string, ready Deprotect x2 and cast on Enlil after Sazh started attacking
+        \item If Enki Bellows, do Poison-Deprotect-Poison until Deprotect hits.
+    \end{itemize}
+    \item Throw potions as needed, Enlil starts attacking more frequently. Be liberal.
+    \item \third
+    \begin{itemize}
+        \item Deprotect-Poison-Deprotect
+        \item Shift after Sazh has Enwater
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until two debuffs
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain until \stagger
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Poison x3 after Sazh's third attack
+        \item Repeat two Poisons
+        \item ATB refresh with [6] until victory
+    \end{itemize}
+\end{itemize}
+\columnbreak    
+\begin{itemize}
+    \item If both Enki and Enlil target the same character, Retry
+    \item \third
+    \begin{itemize}
+        \item Librascope
+        \item Deprotect-Poison-Deprotect
+        \item Repeat Deprotect-Poison
+        \item Potion
+        \item Shift after Sazh casts Vigilance on Vanille
+    \end{itemize}
+    \item \textit{If Enki has two debuffs and enough chain duration}
+    \begin{itemize}
+        \item \fourth
+        \begin{itemize}
+            \item Auto-chain or Fire-Aero-Fire until \stagger
+            \item Shift after Sazh's third spell
+        \end{itemize}
+    \end{itemize}
+    \item \textit{Else}
+    \begin{itemize}
+        \item \fifth
+        \begin{itemize}
+            \item Repeat as necessary
+        \end{itemize}
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Ready Poison x3 and execute after Sazh's third attack
+        \item Potion
+        \item Repeat after Sazh's third Attack
+        \item If Enki Bellows, do Poison-Deprotect-Poison until Deprotect hits.
+    \end{itemize}
+    \item Throw potions as needed, Enlil starts attacking more frequently. Be liberal.
+    \item \third
+    \begin{itemize}
+        \item Deprotect-Poison-Poison
+        \item Shift after Sazh has Enwater
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until two debuffs
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain until \stagger
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Poison x3 after Sazh's third attack
+        \item Repeat after Sazh's third attack until victory
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+\itemdrop{3}{Aegisol}
+\end{battle}
+\begin{menu}
+\begin{itemize}
+    \equip
+    \begin{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item Doctor's Code
+            \end{itemize}
+        \end{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item Power Wristband
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\chapter{}
+
+\pickup{Warding Talisman}{after the 3 Flans, in the corner before the 2 Flans}
+
+\begin{battle}{Corps Pacifex x2 \& Corps Tanquifex x2 \& Orion \& PSCIOM Predator x2}
+\begin{itemize}
+    \item Right+A
+    \item Loop 3 times:
+    \begin{itemize}
+        \item Up + A
+        \item Down + A
+        \item B
+    \end{itemize}
+    \item Y
+\end{itemize}
+\itemdrop{43.2}{Phoenix Down} \itemdrop{34.4}{Credit Chip} \itemdrop{25}{Superconductor} \itemdrop{19}{Incentive}
+\end{battle}
+
+\pickup{2 Incentive Chips}{up the ledge}
+
+\pickup{Guardian Amulet}{in the corner}
+
+\pickup{3 Thrust Bearings}{in the hidden alcove} \pickup{Vidofnir}{on the right after the hidden alcove}
+
+\decep{first battle zone}{Bike after the ladder}
+
+\decep{after you round the corner}{Bike after ladder}
+
+\begin{shop}{22\,720}
+\begin{itemize}
+    \item Unicorn Mart
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Weapons
+            \begin{itemize}
+                \item Vidofnir
+            \end{itemize}
+            \item Accessories
+            \begin{itemize}
+                \item Riptide Ring
+                \item Fulmen Ring
+                \item Warding Talisman
+                \item Guardian Amulet
+            \end{itemize}
+            \item Components
+            \begin{itemize}
+                \item Incentive Chip - All
+            \end{itemize}
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Potion x21
+        \end{itemize}
+    \end{itemize}
+    \item Lenora's Garage
+    \begin{itemize}
+        \item Turbojet x17
+    \end{itemize}
+    \item Creature Comforts
+    \begin{itemize}
+        \item Study Bone x72
+    \end{itemize}
+    \item B\&W Outfitters
+    \begin{itemize}
+        \item Power Wristband
+    \end{itemize}
+\end{itemize}
+\end{shop}
+\begin{upgrade}
+\begin{itemize}
+    \item Upgrade
+    \begin{itemize}
+        \item Weapons
+        \begin{itemize}
+            \item Wild Bear
+            \begin{itemize}
+                \item Sturdy Bone x36 (Level 3, 3x EXP)
+                \item Turbojet x16 (Level 21)
+            \end{itemize}
+        \end{itemize}
+        \item Accessories
+        \begin{itemize}
+            \item Magician's Mark
+            \begin{itemize}
+                \item Study Bone x36 (Level 2, 3x EXP)
+                \item Thrust Bearing x3 (Level 5)
+                \item Turbojet x1 (*)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{upgrade}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Snow}{Hope}{}}%
+{\paradigmline{\textit{\com}}{\textit{\rav}}{}}%
+{\paradigmline{\com}{\med}{}}%
+{\paradigmline{\sen}{\med}{}}%
+{\paradigmline{\sen}{\syn}{}}%
+{\paradigmline{[\rav]}{\rav}{}}%
+{\paradigmline{[\rav]}{\rav}{}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 5 nodes up 1, Adrenaline to the side
+                \item 4 nodes, Strength +10
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Accessory
+            \begin{itemize}
+                \item Power Wristband Lv. 1
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\renewcommand{\first}{[1] Slash \& Burn (\com/\rav)}
+\renewcommand{\second}{[2] War \& Peace (\com/\med)}
+\renewcommand{\fifth}{[5] Dualcasting (\rav/\rav)}
+\renewcommand{\sixth}{[6] Dualcasting (\rav/\rav)}
+
+\begin{battle}{Ushumgal Subjugator 1 (Snow Lead)}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Attack x4, shift mid-air
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Attack x4, shift mid-air
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Attack x4, shift mid-air
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Attack x4, shift mid-air
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Summon, execute when Ushumgal Subjugator uses Tail Hammer
+        \item Repeat
+     \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Froststrike x4, execute when Ushumgal Subjugator uses Overdrive
+        \item Potion, use when Ushumgal Subjugator uses Tail Hammer
+        \item Repeat
+        \item \stagger
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat with ATB refresh with [2] until victory.
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\save{2}
+
+\textbf{Deceptisol} on the large area if camera-trick doesn't work.
+\renewcommand{\first}{[1] Ravager (\rav)}
+\renewcommand{\second}{[2] Medic (\med)}
+\renewcommand{\third}{[3] Synergist (\syn)}
+\begin{battle}{Ushumgal Subjugator 2-1 (Hope Lead)}
+\begin{itemize}
+    \item \first
+    \item \second
+    \begin{itemize}
+        \item Libra
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Die
+    \end{itemize}
+\end{itemize}
+\end{battle}
+Retry the fight.
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Move the first paradigm to the last slot
+        \item \paradigmdeck{%
+\paradigmline{Fang}{Lightning}{Hope}}%
+{\paradigmline{[\com]}{\com}{\rav}}%
+{\paradigmline{(\sab)}{(\rav)}{(\rav)}}%
+{\paradigmline{\sen}{(\rav)}{(\rav)}}%
+{\paradigmline{\textit{\sab}}{\textit{(\rav)}}{\textit{\syn}}}%
+{\paradigmline{[\com]}{\com}{\rav}}%
+{\paradigmline{\com}{\rav}{\rav}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Fang
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 3 nodes, Adrenaline
+            \end{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item 5 nodes, HP +20
+            \end{itemize}
+        \end{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 1 node up 1, Magic +10 to the side
+                \item 10 nodes, Thundara
+            \end{itemize}
+        \end{itemize}
+        \item Hope
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                 \item 8 nodes, Thundara
+            \end{itemize}
+            \item Synergist
+            \begin{itemize}
+                \item 17 nodes up 1, Accessory to the side
+                \item 1 node, HP +10
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \item It's always going to be the first item
+    \begin{itemize}
+        \item Fang
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory: Power Wristband *
+            \end{itemize}
+        \end{itemize}
+        \item Hope (left 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory:  Magician's Mark * $\rightarrow$ Silver Bangle
+            \end{itemize}
+        \end{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory: Magician's Mark *
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Aggression (\com/\com/\rav)}
+\renewcommand{\second}{[2] Relentless Assault (\com/\rav/\rav)}
+\renewcommand{\third}{[3] Smart Bomb (\sab/\rav/\rav)}
+\renewcommand{\fourth}{[4] Mystic Tower (\sen/\rav/\rav)}
+\renewcommand{\fifth}{[5] Geurilla (\sab/\rav/\syn)}
+\renewcommand{\sixth}{[6] Relentless Assault (\com/\rav/\rav)}
+
+\begin{battle}{Ushumgal Subjugator 2-2 (Fang Lead)}
+\begin{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Slow x3
+        \item Potion
+        \item Repeat
+        \item Shift after Hope casts his last Protect
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat twice
+        \item Potion
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Potion
+        \item \stagger
+        \item Auto-battle twice
+        \item Shift after Lightning's second Thundara
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Auto-battle twice
+        \item Shift after Lightning's second Thundara
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-battle
+        \item COM-buffer Lightning's second Thundara (approximately 900+ chain)
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle, try to land Smite
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat twice
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-defend
+        \item Potion
+        \item Potion if Fang's HP isn't green, otherwise Provoke x3
+    \end{itemize}
+    \item \stagger
+    \item \second
+    \begin{itemize}
+        \item Repeat the sequence again, [2]->[6]->[2]->[1]
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\renewcommand{\second}{[2] Relentless Assault (\rav/\com/\rav)}
+\pickup{Phoenix Down}{near the entrance to Hope's house for money safety}
+\begin{battle}{PSICOM Aerial Sniper x2 \& PSICOM Scavenger x2}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Blitz x2 PSCIOM Aerial Sniper B
+        \item Summon
+        \item Repeat one Blitz
+        \item Repeat on whatever wasn't hit by the first Blitzes
+        \item Gestalt when things have chain duration, or someone is about to die
+        \item B - Thunderfall on the PSICOM Scavengers until out
+        \item Y - Zantetsuken
+        \item Cleanup with Blitzes or Ruins
+    \end{itemize}
+\end{itemize}
+\itemdrop{34.4}{Incentive Chip} \itemdrop{2.5}{Deceptisol}
+\end{battle}
+\begin{battle}{PSICOM Bombardier \& PSICOM Predator x2}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Hover over the Bombardier then shift
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-chain
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item \stagger
+        \item Blitz x2
+        \item Repeat until Bombardier is dead
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-chain with COM-buffer to win if needed
+    \end{itemize}
+\end{itemize}
+\itemdrop{27.1}{Incentive Chip} \itemdrop{2.5}{Fortisol}
+\end{battle}
+
+\pickup{Brawler's Wristband}{at the end of the hallway}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Lightning}{Fang}{Hope}}%
+{\paradigmline{\com}{\com}{\rav}}%
+{\paradigmline{\rav}{\com}{\rav}}%
+{\paradigmline{(\com)}{(\com)}{\rav}}%
+{\paradigmline{(\com)}{(\com)}{(\med)}}%
+{\paradigmline{\textit{(\com)}}{\textit{(\com)}}{\textit{\syn}}}%
+{\paradigmline{(\com)}{\com}{(\med)}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Medic
+            \begin{itemize}
+                \item 4 nodes down 1, Accessory to the side
+            \end{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 3 nodes, HP +25
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Magician's Mark * $\rightarrow$ Brawler's Wristband Lv 1
+            \end{itemize}
+        \end{itemize}
+        \item Fang
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Power Wristband * $\rightarrow$ Magician's Mark *
+            \end{itemize}
+        \end{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory $\rightarrow$ Power Wristband *
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Aggression (\com/\com/\rav)}
+\renewcommand{\second}{[2] Relentless Assault (\rav/\com/\rav)}
+\renewcommand{\third}{[3] Aggression (\com/\com/\rav)}
+\renewcommand{\fourth}{[4] Tireless Charge (\com/\com/\med)}
+\renewcommand{\fifth}{[5] Strike Team (\com/\com/\syn)}
+\renewcommand{\sixth}{[6] Tireless Charge (\com/\com/\med)}
+
+Activate a \textbf{Fortisol}.
+
+\begin{battle}{Havoc Skytank}
+\begin{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Attack x4 Portside Turret
+        \item Repeat 2 Attacks
+        \item Potion
+        \item Repeat twice
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat with ATB refreshes with [4] and [6] until all Turrets and Hulls are dead
+    \end{itemize}
+    \item Until the second Main Cannon:
+    \begin{itemize}
+        \item Repeat in [4] or [6] if anyone is not green HP
+        \item Repeat in [1] or [3] otherwise
+    \end{itemize}
+    \item When Main Cannon starts:
+    \begin{itemize}
+        \item \second
+        \begin{itemize}
+            \item Auto-chain
+        \end{itemize}
+        \item \first
+        \begin{itemize}
+            \item \stagger
+            \item Repeat with ATB refreshes with [3] until victory.
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\save{1}
+
+\chapter{}
+
+Chocobos are located in: Middle of the sheep, gift wagon, left side of the structure, middle of the other group of chocobos on the right. \pickup{Star Pendant}{right in front of you}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Vanille}{}}%
+{\paradigmline{\textit{\com}}{\textit{\rav}}{}}%
+{\paradigmline{\com}{(\med)}{}}%
+{\paradigmline{\syn}{\sab}{}}%
+{\paradigmline{\rav}{\rav}{}}%
+{\paradigmline{\rav}{\sab}{}}%
+{\paradigmline{\com}{\sab}{}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 3 nodes, Blitz
+            \end{itemize}
+            \item Synergist
+            \begin{itemize}
+                \item 4 nodes 1 side, Accessory to the side
+                \item 8 nodes, Enfrost
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 2 nodes, Strenght +7
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 11 nodes up 1, Overwhelm
+                \item 2 nodes down 1, Fira
+                \item 2 nodes, Role Level 2
+            \end{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item 2 nodes up 1, Quake
+                \item 4 nodes, Role Level 2
+            \end{itemize}
+            \item Medic
+            \begin{itemize}
+                \item 10 nodes, Magic +3
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory: Doctor's Code Lv. 1
+                \item Accessory: Shield Talisman Lv. 1
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Tungsten Bangle Lv. 1
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\renewcommand{\first}{[1] Slash \& Burn (\com/\rav)}
+\renewcommand{\second}{[2] War \& Peace (\com/\med)}
+\renewcommand{\third}{[3] Tide Turner (\syn/\sab)}
+\renewcommand{\fourth}{[4] }
+\renewcommand{\fifth}{[5] Undermine (\rav/\sab)}
+\renewcommand{\sixth}{[6] Divide \& Conquer (\com/\sab)}
+
+\begin{battle}{Zwerg Metrodoid}
+\begin{itemize}
+   \item \itemdrop{1.25}{Aegisol}
+\end{itemize}
+\end{battle}
+\pickup{Spica Defenders}{behind the Zwerg}
+\begin{battle}{Midnight Reaper}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Blitz
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Bravery
+        \item Enfrost
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat
+        \item Shift after Vanille's third spell
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-chain
+        \item Shift after Vanille's third spell
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Potion
+        \item Repeat
+        \item Shift after Vanille's third spell
+    \end{itemize}
+    \item Repeat until Deprotect is inflicted
+    \item \stagger
+    \item \textit{While Poison is not inflicted}:
+    \begin{itemize}
+        \item \first
+        \begin{itemize}
+            \item Repeat
+            \item Shift after Vanille finishes
+        \end{itemize}
+        \item \sixth
+        \begin{itemize}
+            \item Potion
+            \item Shift after Vanille's third spell
+        \end{itemize}
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat
+        \item Shift after Vanille finishes
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat twice
+    \end{itemize}
+    \item Continue repeating between [1] and [2] until victory
+\end{itemize}
+\end{battle}
+
+\begin{battle}{Brynhildr}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Immediately shift
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Enfrost
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Attack-Blitz
+    \end{itemize}
+    \item War \& Peace
+    \begin{itemize}
+        \item Repeat
+        \item ATB refresh with [2] until victory
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\save{2}
+\chapter{}
+
+\renewcommand{\first}{[1] Relentless Assault (\rav/\rav/\com)}
+\renewcommand{\second}{[2] Delta Attack (\com/\rav/\sen)}
+\begin{battle}{PSICOM Infiltrator \& PSICOM Raider x2}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Summon
+        \item Thundara x2 PSICOM Infiltrator
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz x2 whatever Raider will hit the most things
+        \item X - Gestalt
+        \item Thunderfalls until both Raiders are staggered
+        \item Y - Zantetsuken
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Use four -strikes on any survivors
+    \end{itemize}
+\end{itemize}
+\itemdrop{57.8}{Incentive Chip} \itemdrop{46.4}{Credit Chip} \itemdrop{1.25}{Aegisol}
+\end{battle}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Move the first paradigm to the fourth slot
+        \item \paradigmdeck{%
+\paradigmline{Lightning}{Hope}{Fang}}%
+{\paradigmline{(\rav)}{\syn}{\sab}}%
+{\paradigmline{(\rav)}{\rav}{(\sab)}}%
+{\paradigmline{(\rav)}{(\rav)}{\sen}}%
+{\paradigmline{\textit{\rav}}{\textit{\rav}}{\textit{\com}}}%
+{\paradigmline{[\com]}{\rav}{\com}}%
+{\paradigmline{[\com]}{\rav}{\com}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 1 node up 1, 7 nodes side 1, 9 nodes, Smite
+            \end{itemize}
+        \end{itemize}
+        \item Fang
+        \begin{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item 1 side, Accessory
+                \item 4 nodes, Curse
+            \end{itemize}
+            \item Sentinel
+            \begin{itemize}
+                \item 1 node, HP +40
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item All Accessories
+            \end{itemize}
+        \end{itemize}
+        \item Snow (Left 1)
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item All Accessories
+            \end{itemize}
+        \end{itemize}
+        \item Fang (Left 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Power Wristband *
+                \item Brawler's Wristband
+            \end{itemize}
+        \end{itemize}
+        \item Lightning (Left 2)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Magician's Mark
+                \item Doctor's Code
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\renewcommand{\fourth}{[4] Relentless Assault (\rav/\rav/\com)}
+\renewcommand{\fifth}{[5] Aggression (\com/\rav/\com)}
+\begin{battle}{PSICOM Infiltrator x2 \& PSICOM Raider}
+\begin{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder PSICOM Infiltrator A
+        \item Potion
+        \item Repeat PSICOM Infiltrator B
+        \item Repeat until \stagger
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Ruin x4
+        \item Repea tuntil both Infiltrators are dead
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat
+        \item Thunder-Thundara
+        \stagger
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{27.1}{Incentive Chip} \itemdrop{1.25}{Deceptisol}
+\end{battle}
+
+\pickup{Lifesaber}{inside the ship}
+
+\pickup{Ember Ring}{after the Myrmidion for money safety}
+
+\pickup{Pandoran Spear}{at the end of the hallway before trigger line}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Swap the first and third paradigms
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Vanille}{}}%
+{\paradigmline{\textit{\syn}}{\textit{\sab}}{}}%
+{\paradigmline{\com}{\med}{}}%
+{\paradigmline{\com}{\rav}{}}%
+{\paradigmline{\rav}{\rav}{}}%
+{\paradigmline{[\rav]}{(\sab)}{}}%
+{\paradigmline{[\com]}{(\sab)}{}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Synergist
+            \begin{itemize}
+                \item 1 node, Haste
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 2 nodes right 2, Aero to the side
+                \item 7 nodes left 1, Overwhelm to the side
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Doctors Code $\rightarrow$ Power Wristband Lv 1
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Tide Turner (\syn/\sab)}
+\renewcommand{\second}{[2] War and Peace (\com/\med)}
+\renewcommand{\third}{[3] Slash \& Burn (\com/\rav)}
+\renewcommand{\fourth}{[4] Dualcasting (\rav/\rav)}
+\renewcommand{\fifth}{[5] Undermind (\rav/\sab)}
+\renewcommand{\sixth}{[6] Divide \& Conquer (\com/\sab)}
+
+\begin{battle}{Flanborn \& Flanitor}
+\begin{itemize}
+
+    \item \first
+    \begin{itemize}
+    \item \textit{If Pre-empt}:
+        \begin{itemize}
+            \item Bravery-Enwater Sazh
+            \item Shift when Vanille starts swinging her arm
+        \end{itemize}
+    \item \textit{Else}:
+        \begin{itemize}
+            \item Vigilence-Haste Sazh
+            \item Bravery-Enwater Sazh
+        \end{itemize}    
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Blitz-Blitz
+        \item Repeat until win, refresh to [3] if needed.
+    \end{itemize}
+\end{itemize}
+\itemdrop{43.75}{Vibrant Ooze} \itemdrop{1.25}{Deceptisol}
+\end{battle}
+\begin{shop}{35\,030}
+\begin{itemize}
+    \item Lenora's Garage
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Weapons
+            \begin{itemize}
+                \item Spica Defenders
+                \item Lifesaber
+                \item Pandoran Spear
+            \end{itemize}
+            \item Accessories
+            \begin{itemize}
+                \item Star Pendant
+                \item Ember Ring
+            \end{itemize}
+            \item Components
+            \begin{itemize}
+                \item Everything except for:
+                \item Abominable Wings
+                \item Superconductors
+                \item Uraninte
+                \item Vibrant Oozes
+            \end{itemize}
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Crankshaft x32
+        \end{itemize}
+    \end{itemize}
+    \item Creature Comforts
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Vibrant Ooze x25 if you have at least 1 \textbf{Fortisol} else Vibrant Ooze x35
+        \end{itemize}
+    \end{itemize}
+    \item If short on Gil, stop here
+    \item B\&W Outfitters
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Shaman's Mark
+        \end{itemize}
+    \end{itemize}
+    \item Unicorn Mart
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Potion x31
+            \item Painkiller x4
+            \item Mallet x4
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{shop}
+
+\begin{upgrade}
+\begin{itemize}
+    \item Upgrade
+    \begin{itemize}
+        \item Accessories
+        \begin{itemize}
+            \item Brawler's Wristband
+            \begin{itemize}
+                \item Vibrant Ooze x25 (2x EXP)
+                \item Abominable Wing x9 (3x EXP)
+                \item Crankshaft x32 (*)
+                \item Uraninite (Warrior's Wristband Level 8)
+            \end{itemize}
+            \item \textit{If you don't have a Fortisol}
+            \item Doctor's Code
+            \begin{itemize}
+                \item Vibrant Ooze x10 (*)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \item \textit{If you don't have a Fortisol}:
+    \begin{itemize}
+        \item Dismantle
+        \begin{itemize}
+            \item Accessories
+            \begin{itemize}
+                \item Doctor's Code * (Fortisol, Aegisol, Ethersol, Elixir)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{upgrade}
+\pickup{Phoenix Down}{on the left}
+\begin{battle}{Thermadon \& Vespid Soldier}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Bravery-Enthunder Sazh
+        \item If interupted, repeat whatever is missing
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Blitz-Blitz Vespid Soldier, repeat as needed to kill
+        \item Potion if Aeroga goes off
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Potion if Sazh is targeted by Photon Burst and have time to prevent launch
+        \item Haste-Enwater Sazh
+        \item Auto-support Vanille (Haste)
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Fire-Aero-Fire-Aero
+        \item Potion in [2] if Photon Burst will kill
+        \item Repeat until Deprotect, ATB refresh with [4] if needed
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat until \stagger
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Wait for Thermadon to come close then Repeat
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{1.25}{Aegisol}
+\end{battle}
+Camera trick for this entire section.
+
+\renewcommand{\first}{[1] Geurilla (\rav/\syn/\sab)}
+\renewcommand{\second}{[2] Smart Bomb (\rav/\rav/\sab)}
+\renewcommand{\third}{[3] Mystic Tower}
+\renewcommand{\fourth}{[4] Relentless Assault (\rav/\rav/\com)}
+\renewcommand{\fifth}{[5] Aggression (\com/\rav/\com)}
+
+\begin{battle}{Kalavinka Striker 1}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Libra
+        \item Auto-chain
+        \item Shift after Hope casts his second Protect
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-chain until Slow and Curse
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-chain until \stagger
+        \item Auto-chain once more, try to COM-buffer into:
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-battle with refreshes with [6] until victory
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\begin{battle}{Kalavinka Striker 2}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Potion
+        \item \textit{Lightning targeted}:
+        \begin{itemize}
+            \item Auto-chain two spells
+            \item Potion
+            \item Auto-chain two spells
+            \item Potion
+        \end{itemize}
+        \item \textit{Hope targeted}:
+        \begin{itemize}
+            \item Auto-chain
+            \item Potion
+            \item Auto-chain
+        \end{itemize}
+        \item \textit{Fang targeted}:
+        \begin{itemize}
+            \item Auto-chain twice
+            \item Potion
+        \end{itemize}
+    \end{itemize}
+    \item \second if not Slow and Curse else \fourth
+    \begin{itemize}
+        \item Auto-chain twice, Potion if needed
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-chain until Hellstorm Bolt starts
+        \item Cast whatever is queued, Potion right after the attack goes off
+    \end{itemize}
+    \item \second if not Slow and Curse else \fourth
+    \begin{itemize}
+        \item Auto-chain until \stagger
+        \item Auto-chain, try to COM-buffer into:
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-battle with refreshes with [6] until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{1.25}{Aegisol}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Swap Hope with Sazh (2 $\leftrightarrow$ 5)
+            \item Swap Fang with Snow (3 $\leftrightarrow$ 4)
+        \end{itemize}
+        \paradigmdeck{%
+\paradigmline{Lightning}{Sazh}{Snow}}%
+{\paradigmline{\textit{\com}}{\textit{\syn}}{\textit{(\com)}}}%
+{\paradigmline{(\rav)}{\rav}{\rav}}%
+{\paradigmline{(\com)}{\syn}{\sen}}%
+{\paradigmline{[\rav]}{(\rav)}{(\rav)}}%
+{\paradigmline{\com}{[\com]}{\com}}%
+{\paradigmline{\com}{[\com]}{\com}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 3 nodes left 2, Quake to the side
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 1 node, Role level 2
+            \end{itemize}
+            \item Sentinel
+            \begin{itemize}
+                \item 2 back left 1, Fringeward on stage 1
+                \item 1 node, Strenght +5
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 4 nodes left 1, Water to the side
+                \item 1 node up 1, Aquastrike to the side
+                \item 8 nodes, Strength +3
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Fang
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item All accessories
+            \end{itemize}
+        \end{itemize}
+        \item Lightning (Left 3)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Magician's Mark $\rightarrow$ Warrior's Wristband
+            \end{itemize}
+        \end{itemize}
+        \item Sazh (Right 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Power Wristband $\rightarrow$ Magician's Mark
+                \item Shield Talisman $\rightarrow$ Shaman's Mark
+            \end{itemize}
+        \end{itemize}
+        \item Snow (Right 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Power Wristband *
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Strike Team (\com/\syn/\com)}
+\renewcommand{\second}{[2] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\third}{[3] Strategic Warfare (\com/\syn/\sen)}
+\renewcommand{\fourth}{[4] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\fifth}{[5] Cerberus (\com/\com/\com)}
+\renewcommand{\sixth}{[6] Cerberus (\com/\com/\com)}
+
+Activate the bridge in front.
+
+\begin{battle}{Bridge 1 - PSICOM Destroyer \& PSICOM Infiltrator x3}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Potion
+        \item Blitz-Blitz PSICOM Destroyer
+        \item Potion if needed
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Potion
+        \item Thundara-Thundara PSICOM Destroyer
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat PSICOM Destroyer
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{68.4}{Incentive Chip} \itemdrop{56.4}{Credit Chip} \itemdrop{1.25}{Aegisol}
+\end{battle}
+
+Activate the bridge to the left. \pickup{Librascope}{on the next platform} Activate the bridge to the right.
+
+\begin{battle}{Bridge 2 - PSICOM Destroyer \& PSICOM Dragoon x3}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Shift immediately
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Blitz-Blitz PSICOM Destroyer
+        \item Repeat until Sazh casts Bravery-Vigilence on Snow
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until victory. If only one target is left, use Attack x4.
+    \end{itemize}
+\end{itemize}
+\itemdrop{68.4}{Incentive Chip} \itemdrop{56.4}{Credit Chip} \itemdrop{1.25}{Aegisol}
+\end{battle}
+Activate the bridge in front. \pickup{3600 Gil}{on the platform} Activate the bridge on the right
+\begin{battle}{Bridge 3 - PSICOM Raider \& Thermadon}
+\begin{itemize}
+    \item Use Painkiller (Pain) and Mallet (Fog) if needed.
+    \item \first
+    \begin{itemize}
+        \item Quake
+        \item Blitz-Blitz Thermadon
+        \item Repeat one Blitz on PISCOM Raider A
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Thundara-Thundara PSICOM Raider A
+        \item Hover over PSICOM Raider B
+        \item Potion if Thermadon is targeting Lightning
+        \item Potion to recover HP after the Photon Burst hits
+        \item Repeat if need to stagger PSICOM Raider B
+        \item Repeat Thermadon
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat until Thermadon \stagger
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-battle Thermadon
+        \item Shift after everyone has Enwater
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-battle until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{43.8}{Incentive Chip} \itemdrop{34}{Credit Chip} \itemdrop{1.25}{Aegisol}
+\end{battle}
+
+Activate the bridge to the right, heading toward the entrance. Deceptisol while waiting for the bridge, cancel on the fight at the top. Continue down, activating bridges in front.
+
+\begin{menu}
+\begin{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Synergist
+            \begin{itemize}
+                \item 5 nodes, Enfire
+            \end{itemize}
+            \item Command
+            \begin{itemize}
+                \item 4 nodes, Magic +3
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 1 node up 1, Overwhelm to the side
+            \end{itemize}
+        \end{itemize}
+        \item Fang
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 1 back up 1, HP +20
+                \item 1 node, HP +20
+            \end{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item 1 back left 1, HP +30
+                \item 1 node, HP +40
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item 5 nodes down 1, Accessory to the side
+            \end{itemize}
+            \item Medic
+            \begin{itemize}
+                \item 17 nodes, HP +10
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    
+\end{itemize}
+\end{menu}
+
+\pickup{Ethersol}{before Barthandelous 1 fight}.
+
+Activate \textbf{Fortisol}.
+
+\begin{battle}{Barthandelus 1}
+\begin{itemize}
+    \item Potion in this fight when needed
+    \item \first
+    \begin{itemize}
+        \item Hover over Right Pauldron
+        \item Librascope
+        \item Auto-battle 3 attacks on Right Pauldron
+        \item Input Attack x4, execute only 3 of them
+        \item Repeat, continue until all buffs have been applied
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat 3 Attacks
+        \item Potion
+        \item Repeat 3 Attacks
+        \item Potion
+        \item Repeat 4 Attacks
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat 3 attacks until Right Pauldron dies
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Potion
+        \item When Lightning has Enwater, Repeat 3 attacks on Right Ailette
+        \item Repeat 3 Attacks until the Ailette is dead
+        \item Hover over Barthandelus until Snow start attacking Left Pauldron, then swap and Attack it
+        \item Kill the Left Pauldron, Hover over Barthandelus to make snow do it
+        \item Potion while Barthandelus's head is up in the air
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder, after the head-raising animation
+        \item Quake
+        \item Repeat
+        \item Potion
+        \item Repeat
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Thundara x2
+        \item Potion
+        \item Repeat and Potion until chain is about 650\%-700\%
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Ready Repeat, execute so that there's no gap between Snow's fourth Attack and Lightning's Attack
+        \item Continue this stunlock until Barthandelus is dead. Can refresh to [6]
+    \end{itemize}
+    \item \textit{If stunlock fails and Destrudo}
+    \begin{itemize}
+        \item If HP is low enough, use Attacks x4
+        \item Else re-stagger in [2] and [4], Potioning if HP is not maxed, then [5] Repeats to kill
+    \end{itemize}
+\end{itemize}
+\itemdrop{1.25}{Aegisol}
+\end{battle}
+\save{2}
+
+\chapter{}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Swap Vanille with Sazh (3 $\leftrightarrow$ 5)
+            \item \paradigmdeck{%
+\paradigmline{Lightning}{Snow}{Sazh}}%
+{\paradigmline{\textit{(\rav)}}{\textit{\sen}}{\textit{\syn}}}%
+{\paradigmline{(\rav)}{\rav}{\rav}}%
+{\paradigmline{(\rav)}{\sen}{(\rav)}}%
+{\paradigmline{[\rav]}{(\sen)}{(\rav)}}%
+{\paradigmline{[\rav]}{(\rav)}{\syn}}%
+{\paradigmline{\com}{\com}{[\rav]}}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\renewcommand{\first}{[1] Riot Shield (\rav/\sen/\syn)}
+\renewcommand{\second}{[2] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\third}{[3] Mystic Tower (\rav/\sen/\rav)}
+\renewcommand{\fourth}{[4] Mystic Tower (\rav/\sen/\rav)}
+\renewcommand{\fifth}{[5] Malevolence (\rav/\rav/\syn)}
+\renewcommand{\sixth}{[6] Aggression (\com/\com/\rav)}
+
+\begin{battle}{Pulsework Knight x2}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Quake
+        \item Thundara x2, cancel the second Thundara
+        \item Repeat a single Thundara twice
+        \item Potion if both Knights aren't provoked
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat
+        \item Repeat a single Thundara
+        \item Libra non-current target
+        \item Repeat
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat
+        \item Target whatever isn't \stagger
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until Enfire on Lightning and Snow
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Blitz x2
+        \item Auto-battle if any survive
+    \end{itemize}
+\end{itemize}
+\itemdrop{1}{Aegisol}
+\end{battle}
+Counterclosewise around the first room, path on the walls.
+\pickup{Alicanto}{after the elevator when the room opens up}
+\pickup{Ethersol}{in the room at the hallway before Cid}
+\newpage
+If you have 2 or more \textbf{Aegisols}, can use it here
+\begin{battle}{Cid Raines $|$ Aegisol}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Quake
+        \item Fire-Water-Fire-Water
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat
+        \item Potion
+        \item Repeat
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat
+        \item Potion
+        \item Repeat if the next attack if Physical
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat
+        \item Repeat 2 spells
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat three times
+        \item Potion in between if needed
+        \item Shift when Cid goes to Offensive Shift
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat, Potion when needed, refresh to [4], until \stagger
+    \end{itemize}
+    \item If Cid is in Defensive Shift
+    \begin{itemize}
+        \item \second
+        \begin{itemize}
+            \item Thundara-Thudnara
+        \end{itemize}
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Auto-battle after Snow's fourth attack, keep him in the air until victory
+    \end{itemize}
+\end{itemize}
+\columnbreak
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Quake
+        \item Fire-Water-Fire-Water
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat twice
+        \item Shift after Sazh's fourth spell in his second string
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat
+        \item Potion
+        \item Repeat if the next attack if Physical
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat
+        \item Repeat 2 spells
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat three times
+        \item Potion in between if needed
+        \item Shift when Cid goes to Offensive Shift
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat until \stagger
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Auto-battle after Snow's fourth attack, keep him in the air until victory
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \equip
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item All Accessories
+            \end{itemize}
+        \end{itemize}
+        \item Snow (Right 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Power Wristband * $\rightarrow$ Power Wristband Lv 1
+            \end{itemize}
+        \end{itemize}
+        \item Sazh (Right 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Power Wristband *
+                \item Warrior's Wristband Lv. 8
+            \end{itemize}
+        \end{itemize}
+        \item Lightning (Left 2)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Magician's Mark *
+                \item Shaman's Mark Lv. 1
+            \end{itemize}
+        \end{itemize}
+        \item Fang (Left 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Doctor's Code
+                \item Tetradic Crown
+            \end{itemize}
+        \end{itemize}
+        \item Vanille (Left 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Shield Talisman
+                \item Soulfont Talisman
+            \end{itemize}
+        \end{itemize}
+        \item Hope (Left 1)
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Blank $\rightarrow$ Tungsten Bangle
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\pickup{Feymark}{before the bird elevator}
+
+\decep{Bird dots}{the birds}
+
+\decep{bridge with the birds}{the last bird}
+\renewcommand{\first}{[1] Relentless Assault (\com/\rav/\rav)}
+\renewcommand{\fifth}{[5] Ruthless (\sab/\com/\rav)
+\renewcommand{\fourth}{[4] Combat Clinic (\sen/\med/\med)}}
+\begin{battle}{Bahamut}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Shift immediately
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Auto-hinder
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Potion if lead with 2 Physicals to prevent launch, Auto-cover
+        \item Otherwise try to Potion to prevent launch
+    \end{itemize}
+    \item Repeat [4] and [5] to until Slow is inflicted, tanking in [4]
+    \item \first
+    \begin{itemize}
+        \item Attack-Ruin-Attack
+        \item Potion as needed, Repeat until Gestalt, tank in [4]
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\save{3}
+\chapter{}
+
+\renewcommand{\first}{[1] Entourage (\rav/\med/\sen)}
+\renewcommand{\second}{[2] Protection (\syn/\med/\sen)}
+\renewcommand{\third}{[3] }
+\renewcommand{\fourth}{[4] }
+\renewcommand{\fifth}{[5] }
+\renewcommand{\sixth}{[6] Relentless Assault (\rav/\rav/\com)}
+\begin{battle}{Alexander}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Shift immediately
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Shift when Fang  has run foward enough, before she jumps
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Shift after Fang Provokes
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-chain
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Thunder-Water-Thunder
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Auto-support Fang
+        \item Auto-support Lightning
+    \end{itemize}
+    \item \textit{Until Gestalt}:
+    \begin{itemize}
+        \item \sixth
+        \begin{itemize}
+            \item Repeat, Shift when Fang gets close
+            \item If Loft Challenge, shift in and out of [5] to refresh ATB
+            \item Repeat twice, Shift when Fang gets close
+        \end{itemize}
+        \item \first
+        \begin{itemize}
+            \item Repeat
+            \item If Fang is too close to Hope, throw Potion
+            \item Shift when Fang will survive Alex's second attack
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Swap Hope with Sazh (1 $\leftrightarrow$ 4)
+            \item Swap Fang with Snow (3 $\leftrightarrow$ 5)
+            \item Swap Lightning with Vanille (2 $\leftrightarrow$ 6)
+        \end{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Vanille}{Snow}}%
+{\paradigmline{\com}{\med}{(\com)}}%
+{\paradigmline{\com}{(\sab)}{\rav}}%
+{\paradigmline{\syn}{\med}{(\com)}}%
+{\paradigmline{[\com]}{(\sab)}{\com}}%
+{\paradigmline{\textit{\syn}}{\textit{[\sab]}}{\textit{\com}}}%
+{\paradigmline{[\com]}{\rav}{\com}}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Tireless Charge (\com/\med/\com)}
+\renewcommand{\second}{[2] Ruthless (\com/\sab/\rav)}
+\renewcommand{\third}{[3] }
+\renewcommand{\fourth}{[4] Devastation (\com/\sab/\com}
+\renewcommand{\fifth}{[5] Bully (\syn/\sab/\rav)}
+\renewcommand{\sixth}{[6] Relentless Assault (\com/\rav/\com)}
+
+\begin{battle}{Behemoth King \& Megistotherian}
+\begin{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Bravery-Enfire Sazh
+        \item Shift after Snow and Vanille start casting
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz-Blitz Megistotherian
+        \item Repeat one Blitz
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat and cast when Sazh won't miss, until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.3}{Aegisol}
+\end{battle}
+\pickup{Hauteclaire}{in Mah'habara after the first dodge of the two robots}
+
+\begin{shop}{100\,080}
+\begin{itemize}
+    \item Lenora's Garage
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Weapons
+            \begin{itemize}
+                \item Alicanto
+                \item Feymark
+                \item Hauteclaire
+            \end{itemize}
+            \item Accessories
+            \begin{itemize}
+                \item Entite Ring
+                \item Blessed Talisman
+            \end{itemize}
+            \item Components
+            \begin{itemize}
+                \item Everything except any Superconductors
+            \end{itemize}
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Superconductor x78
+        \end{itemize}
+    \end{itemize}
+    \item Creature Comforts
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Sturdy Bone x87
+        \end{itemize}
+    \end{itemize}
+    \item B\&W Outfitters
+    \begin{itemize}
+        \item Warrior's Wristband x2
+        \item Black Belt
+    \end{itemize}
+    \item If short on Gil, stop here
+    \item Up in Arms
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Pearlwing Staff
+        \end{itemize}
+    \end{itemize}
+    \item Unicorn Mart
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Holy Water x4
+            \item Foul Liquid x4
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{shop}
+\begin{upgrade}
+\begin{itemize}
+    \item Upgrade
+    \begin{itemize}
+        \item Accessories
+        \begin{itemize}
+            \item Warrior's Wristband Lv. 1
+            \begin{itemize}
+                \item Barbed Tail x36 (3x EXP)
+                \item Superconductor x37 (*)
+            \end{itemize}
+            \item Warrior's Wristband Lv. 1
+            \begin{itemize}
+                \item Barbed Tail x36 (3x EXP)
+                \item Superconductor x37 (*)
+            \end{itemize}
+            \item Black Belt Lv. 1
+            \begin{itemize}
+                \item Barbed Tail x15 (1.75x EXP)
+                \item Superconductor x4 (*)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{upgrade}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Move the first paradigm to the second slot
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Vanille}{Snow}}%
+{\paradigmline{(\syn)}{\sab}{\rav}}%
+{\paradigmline{\com}{\med}{\com}}%
+{\paradigmline{\textit{\syn}}{\textit{\med}}{\textit{\com}}}%
+{\paradigmline{\com}{\sab}{\com}}%
+{\paradigmline{\syn}{\sab}{\com}}%
+{\paradigmline{\com}{\rav}{\com}}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Lightning
+        \begin{itemize}
+            \item Unequip everything
+        \end{itemize}
+        \item Hope (Left 2)
+        \begin{itemize}
+            \item Unequip everything
+        \end{itemize}
+        \item Fang (Right 1)
+        \begin{itemize}
+            \item Accessory
+            \begin{itemize}
+                \item Silver Bangle
+                \item Black Belt *
+            \end{itemize}
+        \end{itemize}
+        \item Snow (Left 2)
+        \begin{itemize}
+            \item Accessory
+            \begin{itemize}
+                \item Power Wristband Lv. 1 $\rightarrow$ Warrior's Wristband *
+            \end{itemize}
+        \end{itemize}
+        \item Vanille (Left 1)
+        \begin{itemize}
+            \item Weapon
+            \begin{itemize}
+                \item Pearlwing Staff
+            \end{itemize}
+            \item Accessory
+            \begin{itemize}
+                \item Tungsten Bangle
+                \item Doctor's Code
+            \end{itemize}
+        \end{itemize}
+        \item Sazh (Left 1)
+        \begin{itemize}
+            \item Accessory
+            \begin{itemize}
+                \item Power Wristband $\rightarrow$ Shield Talisman
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] }
+\renewcommand{\second}{[2] Tireless Charge (\com/\med/\com)}
+\renewcommand{\third}{[3] Hero's Charge (\syn/\med/\com)}
+\renewcommand{\fourth}{[4] }
+\renewcommand{\fifth}{[5] }
+\renewcommand{\sixth}{[6] }
+
+\begin{battle}{Rust Pudding x2}
+\begin{itemize}
+    \item \third
+    \begin{itemize}
+        \item Enthunder-Bravery Snow
+        \item Repeat Sazh
+        \item Shift after Snow's fourth Attack
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz-Blitz all the bullets will connect or they're close, Auto-battle otherwise
+        \item Do that until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.3}{Aegisol}
+\end{battle}
+\begin{menu}
+\begin{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 1 up, Quake to the side
+                \item 15 nodes up 1 right 1, Jeopardize on the right side of the Y out of ring
+                \item 4 node, Strength +3
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 7 nodes, Strength +3
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Medic
+            \begin{itemize}
+                \item 18 nodes, ATB gauge segment
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 9 nodes, Strength +5
+            \end{itemize}
+            \item Sentinel
+            \begin{itemize}
+                \item 8 nodes up 1, Accessory to the side
+                \item 6 nodes, Magic +5
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Blank $\rightarrow$ Warrior's Wristband *
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\pickup{Saint's Amulet x2}{in the hallway after the lone Rust Pudding dodge}
+\renewcommand{\first}{[1] Slash \& Burn (\rav/\com)}
+\renewcommand{\third}{[3] Divide \& Conquer (\sab/\com)}
+\renewcommand{\fourth}{[4] Stumbling Block (\sab/\sen)}
+\begin{battle}{Hecatoncheir}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Shift immediately
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Deprotect-Deshell-Imperil-Deshell
+        \item Repeat
+        \item Shift after Fang's third action to cancel her ready animation
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat
+        \item Throw a potion after Fang has taken 300 points of damage
+        \item Repeat
+        \item Shift after Hecatoncheir is done attacking, which is Counter, 7th ATB, or Looming Wrath
+    \end{itemize}
+    \item \textit{Repeat until Gestalt is maxed}:
+    \begin{itemize}
+        \item \third
+        \begin{itemize}
+            \item Repeat
+            \item Renew or Potion
+            \item Repeat
+            \item Shift after Fang's fourth attack to cancel ready animation
+        \end{itemize}
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat
+        \item Potion or Renew
+        \item Repeat
+        \item Shift after Hecatoncheir is done attacking, which is Counter, 7th ATB, or Looming Wrath
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\pickup{Perfect Conductor x3}{behind the stairs being hidden}
+
+Deceptisol the second dog and past that as needed, cancel on what you need to.
+
+Elevator to \textbf{Second Tier}.
+\renewcommand{\first}{[1] Guerilla (\syn/\sab/\rav)}
+\renewcommand{\second}{[2] Tireless Charge (\com/\med/\com)}
+\renewcommand{\third}{[3] Hero's Charge (\syn/\med/\com)}
+\renewcommand{\fourth}{[4] Devastation (\com/\sab/\com)}
+\renewcommand{\fifth}{[5] Bully (\syn/\sab/\com)}
+\renewcommand{\sixth}{[6] Aggression (\com/\rav/\com)}
+\begin{battle}{Mission 21: Gelatitan Pre-Empt (lure\, exit battle zone)}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-support Sazh (Haste)
+        \item Bravery-Enthunder Snow
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat Sazh
+        \item Shift after Snow's fourth action
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Blitz-Blitz
+        \item Repeat until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.3}{Aegisol}
+\end{battle}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Switch Sazh with Vanille (1 $\leftrightarrow$ 2)
+            \item Set the last paradigm as default
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\begin{battle}{Mission 22: Ambling Bellows \& Cryptos x2 Pre-Empt}
+\begin{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Hover over Ambling Bellows
+        \item Summon either when Sazh's Blitz connects with Ambling Bellows or a physical is about to hit Vanille
+        \item Aerora
+        \item Aerora-Fira
+        \item X - Gestalt
+        \item B 4 times
+        \item Y
+        \item Retry if the Bellows didn't die
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.3}{Deceptisol}
+\end{battle}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Switch Vanille with Sazh (1 $\leftrightarrow$ 2)
+            \item Set the first paradigm as default
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\begin{battle}{Mission 23: Gurangatch Pre-Empt}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-support Sazh (Haste)
+        \item Bravery-Enwater Snow
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat Sazh
+        \item Shift after Snow's fourth action
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Auto-battle or Blitz Blitz depending on position and launch
+        \item Repeat that one more time
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.3}{Fortisol}
+\end{battle}
+
+\pickup{Simurgh}{in the middle of the stairs going up}
+
+Take the elevator to the \textbf{Fourth Tier}.
+
+Take the elevator to the \textbf{Fifth Tier}.
+
+\textbf{Deceptisol} on Mushussu.
+
+\begin{battle}{Mission 24: Mushussu \& Yakshini x2 Pre-Empt}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Quake
+        \item Bravery-Enwater Snow
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Haste-Bravery Sazh
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Blitz-Blitz Mushussu
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.3}{Fortisol}
+\end{battle}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Vanille}{Snow}}%
+{\paradigmline{\textit{\syn}}{\textit{\sab}}{\textit{\rav}}}%
+{\paradigmline{\com}{\med}{\com}}%
+{\paradigmline{\syn}{\med}{\com}}%
+{\paradigmline{\com}{\sab}{\com}}%
+{\paradigmline{(\rav)}{\sab}{(\rav)}}%
+{\paradigmline{\com}{\rav}{\com}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 22 nodes, Magic +5
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item 14 nodes, Magic +8
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Sentinel
+            \begin{itemize}
+                \item 1 node up, Challenge to the side
+                \item 14 nodes, HP +100
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Shield Talisman $\rightarrow$ Soulfont Talisman
+            \end{itemize}
+        \end{itemize}
+        \item Fang (Left 1)
+        \begin{itemize}
+            \item Remove everything
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+Take the elevator to the \textbf{Fourth Tier}.
+
+Take the elevator on the other side to the \textbf{Sixth Tier}.
+
+\pickup{Unsetting Sun}{next to the stairs heading down}
+\begin{battle}{Mission 25: Vetala}
+\begin{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-support Sazh (Haste)
+        \item Bravery-Enthunder Snow
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Renew
+        \item Fire-Thunder-Fire-Thunder
+        \item Repeat until \stagger
+        \item Phoenix Down Vanille if she dies to Vetala's second attack. If you don't have them and Vetala doesn't have Imperil, Retry
+        \item Painkiller on Sazh Snow, Mallet on Vanille
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat Sazh
+        \item Shift after Vetala has Deprotect
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz-Blitz
+        \item Repeat until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.3}{Aegisol}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Vanille}{Snow}}%
+{\paradigmline{\syn}{(\rav)}{(\sen)}}%
+{\paradigmline{\textit{\com}}{\textit{(\rav)}}{\textit{(\rav)}}}%
+{\paradigmline{(\rav)}{(\rav)}{(\sen)}}%
+{\paradigmline{\com}{(\rav)}{\com}}%
+{\paradigmline{\rav}{\sab}{(\sen)}}%
+{\paradigmline{\com}{\rav}{\com}}
+    \end{itemize}
+    \item Battle Team
+    \begin{itemize}
+        \item Switch Sazh with Vanille (1 $\leftrightarrow$ 2)
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\pickup{Librascope}{left of the hallway entrance}
+
+Activate \textbf{Ethersol}
+
+\textbf{Deceptisol} on Penanggalan.
+\renewcommand{\second}{[2] Relentless Assault (\rav/\rav/\com)}
+\renewcommand{\fourth}{[3] Mystic Tower (\rav/\rav/\sen)}
+
+\begin{battle}{Chonchon x4 \& Penanggalan}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Fira-Aerora Penanggalan
+        \item Summon
+        \item Repeat
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat
+        \item X - Gestalt
+        \item B - 1 to 3 times
+        \item Y - Gaian Salvo
+        \item Auto-chain if survived.
+    \end{itemize}
+\end{itemize}
+\end{battle}
+
+Take the elevator to the \textbf{Fourth Tier}
+
+\begin{shop}{91\,320}
+\begin{multicols}{2}
+\begin{itemize}
+    \item Lenora's Garage
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Weapons
+            \begin{itemize}
+                \item Binding Rod
+                \item Simurg
+                \item Unsetting Sun
+            \end{itemize}
+            \item Accessories
+            \begin{itemize}
+                \item \textit{Everything unequipped except for}:
+                \item Warrior's Wristband Lv. 1
+                \item Black Belt *
+                \item Doctor's Codes
+            \end{itemize}
+            \item Components
+            \begin{itemize}
+                \item \textit{Everything except for}:
+                \item Perfect Conductors
+                \item Particle Accelerators
+            \end{itemize}
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Superconductor x63, 64 if the Vega 42s are Level 19
+        \end{itemize}
+    \end{itemize}
+    \item Creature Comforts
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Sturdy Bone x72
+            \item Barbed Tail x72
+            \item Vibrant Ooze, 86 \textit{if only one Doctor's Code else} 96
+        \end{itemize}
+    \end{itemize}
+    \item B\&W Outfitters
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Warrior's Wristband
+            \item Sorcerer's Mark
+        \end{itemize}
+    \end{itemize}
+    \columnbreak
+    \item \textit{If were you short on gil during Mah'habara Shop}:
+    \item Up in Arms
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Pearlwing Staff
+        \end{itemize}
+    \end{itemize}
+    \item Unicorn Mart
+    \begin{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Holy Water x4
+            \item Foul Liquid x4
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+\end{shop}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Switch Vanille with Sazh (1 $\leftrightarrow$ 2)
+            \item Switch Vanille with Snow (2 $\leftrightarrow$ 3)
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory: Soulfont Talisman $\rightarrow$ Warrior's Wristband Lv. 1
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Equip
+            \begin{itemize}
+                \item Accessory: Doctor's Code $\rightarrow$ Sorcerer's Mark
+                \item Weapon: Pearlwing Staff if just bought
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\begin{upgrade}
+\begin{itemize}
+    \item Upgrade
+    \begin{itemize}
+        \item Weapons
+        \begin{itemize}
+            \item Vega 42s
+            \begin{itemize}
+                \item Sturdy Bone x36 (3x EXP)
+                \item Superconductor x5/x6 (*)
+            \end{itemize}
+            \item Wild Bear
+            \begin{itemize}
+                \item Sturdy Bone x36 (3x EXP)
+                \item Superconductor x4 (*)
+            \end{itemize}
+            \item Pearlwing Staff
+            \begin{itemize}
+                \item Barbed Tail x36 (Level 2, 3x EXP)
+                \item Superconductor x17 (*)
+            \end{itemize}
+        \end{itemize}
+        \item Accessories
+        \begin{itemize}
+            \item Warrior's Wristband Lv. 1
+            \begin{itemize}
+                \item Barbed Tail x36 (3x EXP)
+                \item Superconductor x37 (*)
+            \end{itemize}
+            \item Warrior's Wristband
+            \begin{itemize}
+                \item Vibrant Ooze x36 (3x EXP)
+                \item Particle Accelerator x3 (Level 10)
+                \item Perfect Conductor x1 (*)
+            \end{itemize}
+            \item Doctor's Codes (All)
+            \begin{itemize}
+                \item Vibrant Ooze x10 (*)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \item Dismantle
+    \begin{itemize}
+        \item Accessories
+        \begin{itemize}
+            \item All Doctor's Codes (Fortisol, Aegisol, Ethersol, Elixer)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{upgrade}
+
+\renewcommand{\first}{[1] Riot Shield (\syn/\sen/\rav)}
+\renewcommand{\second}{[2] Relentless Assault (\com/\rav/\rav)}
+\renewcommand{\third}{[3] Mystic Tower (\rav/\sen/\rav)}
+\renewcommand{\fourth}{[4] Aggression (\com/\com/\rav)}
+\renewcommand{\fifth}{[5] Matador (\rav/\sen/\sab)}
+\renewcommand{\sixth}{[6] Aggression (\com/\com/\rav)}
+
+Take the elevator to the \textbf{Sixth Tier}.
+
+Activate \textbf{Ethersol}
+
+Take the elevator to the \textbf{Apex}.
+
+\begin{battle}{Dahaka}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Libra
+        \item Attack-Blitz, \rav-buffer into
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Renew
+        \item Fire-Thunder-Fire-Thunder
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-support Sazh (Haste)
+        \item Auto-support Vanille (Haste)
+        \item Bravery-Enthunder Sazh
+    \end{itemize}
+    \item \fifth if Imperil else \third
+    \begin{itemize}
+        \item Repeat
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat Snow, delay if Foul Utterance is being cast
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until Deprotect
+        \item If very early, repeat in [3]
+        \item Shift if Deprotect and close to \stagger, if Deprotect lands after \stagger then skip the next shift
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz-Blitz
+        \item Shift so that Snow doesn't jump while Dahaka is falling
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Repeat with refreshes with [6] until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.3}{Fortisol}
+\end{battle}
+
+\pickup{Ethersol}{next to the auto-jump}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Snow}{Vanille}}%
+{\paradigmline{(\com)}{(\com)}{(\med)}}%
+{\paradigmline{(\rav)}{\rav}{\rav}}%
+{\paradigmline{\textit{\rav}}{\textit{(\rav)}}{\textit{(\sab)}}}%
+{\paradigmline{\com}{\com}{\rav}}%
+{\paradigmline{(\syn)}{(\rav)}{\sab}}%
+{\paradigmline{\com}{\com}{\rav}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item Until Out: Magic +15
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Sentinel
+            \begin{itemize}
+                \item Until Out: Strength +18
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Medic
+            \begin{itemize}
+                \item First HP +100 node out of ring
+            \end{itemize}
+            \item Saboteur
+            \begin{itemize}
+                \item Two HP +100 node out of ring
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\renewcommand{\first}{[1] Tireless Charge (\com/\com/\med)}
+\renewcommand{\second}{[2] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\third}{[3] Smart Bomb (\rav/\rav/\sab)}
+\renewcommand{\fourth}{[4] Aggression (\com/\com/\rav)}
+\renewcommand{\fifth}{[5] Geurilla (\syn/\rav/\sab)}
+\renewcommand{\sixth}{[6] Aggression (\com/\com/\rav)}
+
+Lure the seekers to the side, then \decep{on the seekers}{the back of the Vetala}
+
+\begin{battle}{Bathandelus 2}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \third
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder
+        \item Shift after Vanille has finished her string
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Haste-Bravery Sazh
+        \item Haste-Faith Vanille
+        \item Bravery Snow
+        \item Renew when needed
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat
+        \item Librascope
+        \item Renew when needed
+        \item Repeat until \stagger, then use Thunder-Aerora
+        \item ALWAYS Shift when Deprotect and Imperil are inflicted
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat FTFT pre-stagger, Thunder-Aerora post-stagger
+        \item Shift after second Thunder-Aerora and Vanille finished her string
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Blitz-Blitz
+        \item Shift after Snow's fourth Attack
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat until head-split. ATB refresh as needed to [4], [1] as needed
+        \item Sazh/Snow Pain use Painkiller
+        \item Vanille Fog use Mallet
+        \item Daze on anyone that isn't Sazh first, then Sazh, use Foul Liquid
+        \item Curse Snow first, then Sazh, use Holy Water
+        \item Try to shift during head-split
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item If Bart's HP is less than 1.3 million, then he's probably using Thanatosian Laughter
+        \item Ready Summon:
+        \begin{itemize}
+            \item Apoptosis
+            \begin{itemize}
+                \item Summon
+                \item X - Gestalt Immediately
+                \item Y - Finisher Immediately
+            \end{itemize}
+            \item Thanatosian Laughter
+            \begin{itemize}
+                \item Summon when Laughter gonna hit
+                \item Potion if needed
+                \item Fire-Thunder-Fire-Thunder until Apoptosis, then X - Gestalt
+                \item Y - Finisher Immediately
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \columnbreak
+    \item If he hasn't used Thanatosian Laughter yet, keep the party green health, Renew/Elixer when it's going to hit, and Renew if not in Tireless
+    \item \third
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder or Repeat if you've already got it queued
+        \item Shift after Vanille has finished her string of 5 debuffs
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Haste Sazh
+        \item Repeat Vanille
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder
+        \item Elixer when needed
+        \item Repeat until \stagger, then use Thunder-Aerora
+        \item ALWAYS Shift when Deprotect and Imperil are inflicted
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat FTFT pre-stagger, Thunder-Aerora post-stagger
+        \item Shift after second Thunder-Aerora and Vanille finished her string
+    \end{itemize}\begin{itemize}
+        \item Blitz-Blitz
+        \item Shift after Snow's fourth Attack
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat until head-split. ATB refresh as needed to [4], [1] as needed
+    \end{itemize}
+    \item If second stagger ends, \stagger with Fire-Thunder-Fire-Thunder in [2], then use the \com paradigms to kill
+\end{itemize}
+\vfill\null
+\end{multicols}
+\itemdrop{0.3}{Deceptisol}
+\end{battle}
+\save{2}
+
+\chapter{}
+
+\begin{battle}{Anavatapa Warmech}
+\begin{itemize}
+    \item Down+A
+    \item Side+A until \stagger
+    \item Y
+\end{itemize}
+\end{battle}
+
+\decep{the maze}{the circling Bulwarker}
+
+\textbf{Deceptisol} between the two battle zones, don't cancel.
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Switch Lightning with Vanille (1 $\leftrightarrow$ 3)
+            \item Switch Lightning with Sazh (3 $\leftrightarrow$ 4)
+        \end{itemize}
+        \item Make the second paradigm default
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\begin{battle}{Bulwarker \& Sanctum Seraph x2}
+\begin{itemize}
+    \item [2] Relentless Assault (\rav/\rav/\com)
+    \begin{itemize}
+        \item Quake
+        \item Summon
+        \item Fira-Aerora
+        \item X - Gestalt
+        \item B - Force Blasters
+        \item Y - Gaian Salvo
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.38}{Aegisol}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item 11 nodes, Ruin
+            \end{itemize}
+            \item Medic
+            \begin{itemize}
+                \item HP +100 out of ring
+                \item Accessory out of ring
+                \item 2 nodes, Magic +18
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Sentinel
+            \begin{itemize}
+                \item ATB segment
+            \end{itemize}
+            \item Ravager
+            \item Accessory out of ring
+        \end{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item Node next to Cold Blood, HP +100
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Switch Vanille with Sazh (1 $\leftrightarrow$ 3)
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Snow}{Vanille}}%
+{\paradigmline{\com}{(\com)}{(\com)}}%
+{\paradigmline{\textit{\com}}{\textit{(\com)}}{\textit{(\com)}}}%
+{\paradigmline{\syn}{\sen}{(\sab)}}%
+{\paradigmline{[\syn]}{\rav}{\med}}%
+{\paradigmline{\rav}{\rav}{[\med]}}%
+{\paradigmline{\rav}{\rav}{[\rav]}}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Blank $\rightarrow$ Warrior's Wristband *
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Blank $\rightarrow$ Black Belt * 
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+\renewcommand{\first}{[1] Cerberus (\com/\com/\com)}
+\renewcommand{\second}{[2] Cerberus (\com/\com/\com)}
+\renewcommand{\third}{[3] Premeditation (\syn/\sen/\sab)}
+\renewcommand{\fourth}{[4] Coordination (\syn/\rav/\med)}
+\renewcommand{\fifth}{[5] Thaumaturgy (\rav/\rav/\med)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
+
+\begin{battle}{Behemoth King}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz, \rav-buffer into
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Fire x4
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Attack-Blitz, \rav-buffer into
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-support Sazh (Haste)
+        \item Auto-support Vanille (Haste
+    \end{itemize}
+    \item \fifth \textit{if anyone is in red health else} \sixth
+    \begin{itemize}
+        \item Repeat
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Bravery-Enfire Sazh
+        \item Repeat Snow
+        \item Faith-Enfire Vanille
+        \item Shift after Deprotect and Imperil
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz-Blitz
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.38}{Aegisol}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item Cold Blood
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item Until out, HP+60
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\decep{battle zone}{big dog at the third encounter}
+
+\pick\pickup{Rebel Heart}{on the right}
+
+\textbf{Deceptisol} when the bird falls through the ceiling, don't cancel it.
+
+\begin{battle}{Proudclad 1}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz-Blitz, \rav-buffer the first Blitz
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Haste-Bravery Snow
+        \item Repeat Sazh
+        \item Haste-Faith Vanille
+        \item Shift after Snow's fifth strike
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Repeat
+        \item Shift after Snow's fourth strike
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat, \rav-buffer the first Blitz
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Librascope
+        \item Cold Blood when Snow is about to Stagger, about 47\%
+        \item Shift after Sazh started shooting, Refresh Snow
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Shift
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat, shift when Sazh starts Cold Blood
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item ATB Refresh after Snow's fifth Attack
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat
+        \item Renew
+        \item Repeat, Shift when the second Blitz starts
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat
+        \item Repeat a single Blitz
+        \item Auto-battle and hope if not dead
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.38}{Deceptisol}
+\end{battle}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Switch Sazh with Snow (1 $\leftrightarrow$ 2)
+        \end{itemize}
+        \item Make the last paradigm the default
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\begin{battle}{Adamanchelid}
+\begin{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Froststrike-Blizzard-Blizzard-Blizzard-Blizzard
+        \item Summon
+        \item Repeat
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until \stagger, refresh with [6] when needed
+        \item If Quake, ready and use Blizzard x5 after Quake hits
+        \item X - Gestalt
+        \item Up + A - Wheelie, when Adamanchelid's head is close to the ground
+        \item Down + A - Spin Freeze until out of summon points
+        \item Y - Diamond Dust
+        \item If survived, Froststrike x5, repeat or retry
+    \end{itemize}
+\end{itemize}
+\itemdrop{23.75}{Gold Dust}\itemdrop{ 5}{Scarletite}\itemdrop{ 0.38}{Deceptisol}
+\end{battle}
+\pickup{Punisher}{forward and to the right}
+
+Push the Vernal Harvest and Tyrant to the side.
+
+\pickup{Particle Accelerator x6}{on the left side of the glass, then run backwards}
+
+\pickup{Mistilteinn}{in the middle of the long hallway.}
+
+\pickup{Power Glove}{up the steps}
+
+\begin{upgrade}
+\begin{itemize}
+    \item Upgrade
+    \begin{itemize}
+        \item Accessories
+        \begin{itemize}
+            \item Power Glove
+            \begin{itemize}
+                \item Vibrant Ooze x36 (3x EXP)
+                \item Particle Accelerator x6 (*)
+            \end{itemize}
+            \item Goddess's Favor
+            \begin{itemize}
+                \item Vibrant Ooze x4 (1.25x EXP)
+                \item Perfect Conductor x2 (*)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \item Dismantle
+    \begin{itemize}
+        \item Accessories
+        \begin{itemize}
+            \item Goddess's Favor * (Scarletite, Perfume, Ribbon)
+            \item Ribbon (Dusklight Dew x6)
+        \end{itemize}
+    \end{itemize}
+    \item Upgrade
+    \begin{itemize}
+        \item Warrior's Wristband * on Snow
+        \begin{itemize}
+            \item Scarletite (Power Glove Lv. 9)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{upgrade}
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Switch Sazh with Snow (1 $\leftrightarrow$ 2)
+        \end{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Snow}{Vanille}}%
+{\paradigmline{(\rav)}{\com}{\com}}%
+{\paradigmline{\textit{\com}}{\textit{(\com)}}{\textit{(\com)}}}%
+{\paradigmline{(\rav)}{\sen}{(\rav)}}%
+{\paradigmline{(\com)}{(\sen)}{\med}}%
+{\paradigmline{\rav}{(\com)}{(\rav)}}%
+{\paradigmline{\rav}{\rav}{\rav}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item Until Out, HP +70
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item Until Out, HP +30 end of stage 7
+            \end{itemize}
+        \end{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Medic
+            \begin{itemize}
+                \item HP +125 out of ring
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Warrior's Wristband * $\rightarrow$ Power Glove *
+        \end{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Warrior's Wristband Lv. 8 $\rightarrow$ Warrior's Wristband *
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+Activate \textbf{Ethersol, Fortisol, Aegisol}.
+\renewcommand{\first}{[1] Aggression (\rav/\com/\com)}
+\renewcommand{\second}{[2] Cerberus (\com/\com/\com)}
+\renewcommand{\third}{[3] Mystic Tower (\rav/\sen/\rav)}
+\renewcommand{\fourth}{[4] Solidarity (\com/\sen/\med)}
+\renewcommand{\fifth}{[5] Relentless Assault (\rav/\com/\rav)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
+\begin{battle}{Proudclad 2}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Attack-Blitz, \rav-buffer the Blitz into
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Libra
+        \item Cold Blood
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat
+        \item Shift after Vanille's final attack
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Aero and Shift immediately
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Renew
+        \item If Proudclad hits the ground, coordinate attacks to maintain interruption until Launch
+        \item Until stagger is close to ending, Auto-battle 3 Attacks, alternate with Vanille
+        \item Potion if everyone isn't at max HP
+        \item Attack-Attack-Blitz, \rav-buffer the Blitz
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Auto-chain one spell
+        \item \textit{Oneric Maelstrom}:
+        \begin{itemize}
+            \item Renew to prevent Sazh from Launching
+            \item Auto-chain 2 spells
+            \item Cold Blood
+        \end{itemize}
+        \item \textit{Muon Blaster $\rightarrow$ Onearic Maelstrom}
+        \begin{itemize}
+            \item Renew to prevent Sazh from Launching
+            \item Cold Blood
+        \end{itemize}
+        \item \textit{Muon Blaster $\rightarrow$ Muon Blaster}
+        \begin{itemize}
+            \item Cold Blood to prevent Sazh's interruption
+        \end{itemize}
+        \item ATB refresh after Cold Blood starts to maximize Launches
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat
+        \item Shift after Vanille's final attack
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat
+        \item If Proudclads lands, ATB refresh Snow's fifth attack
+        \item ATB refresh so that Snow and Vanille finish just after you can control Sazh
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat one Attack
+        \item Blitz-Blitz
+        \item Repeat
+    \end{itemize}
+    \columnbreak
+    \item \textit{If unlikely to kill before stagger ends}:
+    \begin{itemize}
+        \item \first
+        \begin{itemize}
+            \item Repeat and Shift immediately
+        \end{itemize}
+        \item \second
+        \begin{itemize}
+            \item Hope and Cry
+        \end{itemize}
+    \end{itemize}
+    \item \textit{If Proudclad survives}:
+    \item \fourth
+    \begin{itemize}
+        \item Potion if low, Repeat otherwise
+        \item \textit{If Proudclad low on HP}:
+        \begin{itemize}
+            \item \second
+            \begin{itemize}
+                \item Repeat until victory
+                \item Shift to [4] if things get hairy to recover
+            \end{itemize}
+        \end{itemize}
+        \item \textit{If Proudclad is higher on HP}:
+        \begin{itemize}
+            \item Blitz and \rav-buffer into
+            \item \sixth
+            \begin{itemize}
+                \item Fire-Thunder-Fire-Thunder
+                \item Repeat until \stagger
+                \item If HP is still high, Cold Blood
+            \end{itemize}
+            \item \second
+            \begin{itemize}
+                \item Repeat until victory
+                \item Shift to [4] if things get hairy to recover
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+\end{battle}
+\save{1}
+
+\chapter{}
+\begin{shop}{132\,000}
+\begin{itemize}
+    \item Eden Pharmaceuticals
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Weapons: Everything
+            \item Accessories: Everything but Warrior's Wristband
+            \item Components: Everything
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Deceptisol x1
+            \item Fortisol x3
+            \item Aegisol x3
+            \item Deceptisol x2
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{shop}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Switch Sazh with Vanille (1 $\leftrightarrow$ 3)
+        \end{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Vanille}{Snow}{Sazh}}%
+{\paradigmline{(\med)}{\com}{(\com)}}%
+{\paradigmline{(\sab)}{\com}{\com}}%
+{\paradigmline{(\sab)}{\sen}{(\syn)}}%
+{\paradigmline{(\rav)}{(\rav)}{\com}}%
+{\paradigmline{\textit{(\sab)}}{\textit{(\rav)}}{\textit{\rav}}}%
+{\paradigmline{\rav}{\rav}{\rav}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Vanille
+        \begin{itemize}
+            \item Medic
+            \begin{itemize}
+                \item Curaja out of ring
+                \item Role level 4
+                \item Two nodes afterwards, HP +80
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item Role level 4
+            \end{itemize}
+        \end{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item Adrenaline out of ring
+                \item Accessory out of ring
+                \item HP +100
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Blank $\rightarrow$ Warrior's Wristband Lv. 8
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+Activate \textbf{Ethersol} while elevator is moving.
+
+Activate \textbf{Deceptisol} during the jump to the left, don't cancel.
+
+Activate \textbf{Fortisol, Aegisol} before the statue.
+
+\renewcommand{\second}{[2] Devastation (\sab/\com/\com)}
+\renewcommand{\fifth}{[5] Smart Bomb (\sab/\rav/\rav)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
+\begin{battle}{Bandersnatch \& Jabberwocky}
+\begin{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Imperil x5 Bandersnatch
+        \item Repeat if didn't inflict
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Summon
+        \item Fira-Aerora Bandersnatch
+        \item Repeat until Jabberwocky takes an action, then X - Gestalt
+        \item B - Force Blasters
+        \item Y - Gaian Salvo
+        \item Retry if not dead
+        \item Auto-chain
+        \item Shift after Snow's fifth Attack
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Use Renew/Potion to prevent interruption if needed
+        \item Deprotect-Poison-Deprotect-Poison-Deprotect
+        \item Shift when Snow finishes his second string
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Auto-chain
+        \item If Breath of the Beast shift to [3] and hope
+        \item Shift to cancel Snow's ready animation
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat \textit{if no Deprotect else } Poison x5
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat as needed to maintain interruption until victory
+    \end{itemize}
+\end{itemize}
+\itemdrop{0.13}{Aegisol}
+\end{battle}
+
+Counter-clockwise towards destination marker.
+
+\decep{while jumping}{back of the Megrim Thresher} If had 3 Deceptisols, skip the cancel.
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Set the third paradigm as default
+    \end{itemize}
+\end{itemize}
+\end{menu}
+
+Activate \textbf{Ethersol, Fortisol, Aegisol}.
+
+\renewcommand{\third}{[3] Premeditation (\sab/\sen/\syn)}
+\renewcommand{\first}{[1] Tireless Charge (\med/\com/\com)}
+
+\begin{battle}{Wladislaus}
+\begin{itemize}
+    \item \third
+    \begin{itemize}
+        \item Libra
+        \item Deprotect x5
+        \item Shift after Sazh's third Enfire
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item If no Deprotect, Repeat
+        \item Renew
+        \item If no Deprotect, Repeat
+        \item Repeat after Deprotect is removed via Mounting Contempt
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item If no Deprotect, Repeat
+        \item Shift after Snow is hit by Mounting Contempt
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Auto-heal
+        \item Auto-heal after Wladislaus's attack
+        \item Shift after Snow's fifth attack, cancel ready animation
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Should die to Snow and Sazh. Otherwise repeat same process as above.
+    \end{itemize}
+\end{itemize}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item Battle Team
+        \begin{itemize}
+            \item Switch Vanille with Sazh (1 $\leftrightarrow$ 3)
+        \end{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Snow}{Vanille}}%
+{\paradigmline{\com}{\com}{\med}}%
+{\paradigmline{\com}{\com}{(\com)}}%
+{\paradigmline{(\rav)}{(\rav)}{(\med)}}%
+{\paradigmline{\textit{\com}}{\textit{\rav}}{\textit(\sab)}}%
+{\paradigmline{\rav}{\rav}{\sab}}%
+{\paradigmline{\rav}{\rav}{\rav}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item First node after Role Level 4, HP +90
+            \end{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item 1 node, Strength +14
+            \end{itemize}
+            \item Sentinel
+            \begin{itemize}
+                \item Provoke
+            \end{itemize}
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Commando
+            \begin{itemize}
+                \item Until out, Strength +30
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \equip
+    \begin{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Remove
+            \begin{itemize}
+                \item All Power Gloves
+            \end{itemize}
+        \end{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Optimize: Offensive
+        \end{itemize}
+        \item Snow
+        \begin{itemize}
+            \item Optimize: Offensive
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\textbf{Ethersol} on the elevator, \textbf{Deceptisol} first jump, \textbf{Fortisol} second jump, \textbf{Aegisol} last jump.
+\renewcommand{\first}{[1] Tireless Charge (\com/\com/\med)}
+\renewcommand{\second}{[2] Cerberus (\com/\com/\com)}
+\renewcommand{\third}{[3] Thaumaturgy (\rav/\rav/\med)}
+\renewcommand{\fourth}{[4] Relentless Assault (\com/\rav/\rav)}
+\renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
+\begin{battle}{Tiamat Eliminator}
+\begin{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Attack-Attack-Blitz, \rav-buffer the Blitz
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Cold Blood
+        \item Libra
+        \item Auto-chain if Tail Hammer
+        \item Repeat just before Stagger, shift after Sazh fires the first bullet
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Repeat
+        \item Shift towards the end of Cold Blood for an ATB refresh
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz-Blitz
+        \item Repeat, ATB refresh with [1] until stagger ends
+        \item Attack-Attack-Blitz when Tiamat drops to the ground, \rav-buffer the Blitz
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until stagger, refresh with [6]
+        \item Renew if Pinpoint Beam
+        \item Shift to [6] if Imperil and Deprotect
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz-Blitz
+        \item Repeat until Victory
+    \end{itemize}
+\end{itemize}
+\end{battle}
+
+\begin{menu}
+\begin{itemize}
+    \paradigm
+    \begin{itemize}
+        \item \paradigmdeck{%
+\paradigmline{Sazh}{Snow}{Vanille}}%
+{\paradigmline{\com}{\com}{\med}}%
+{\paradigmline{\textit{\com}}{\textit{\com}}{\textit{(\rav)}}}%
+{\paradigmline{(\sen)}{(\sen)}{\med}}%
+{\paradigmline{(\syn)}{\rav}{\rav}}%
+{\paradigmline{\sab}{\rav}{\rav}}%
+{\paradigmline{\rav}{\rav}{\rav}}
+    \end{itemize}
+    \crystarium
+    \begin{itemize}
+        \item Sazh
+        \begin{itemize}
+            \item Ravager
+            \begin{itemize}
+                \item Next Strength Node
+                \item Two out of ring Strength Nodes
+            \end{itemize}
+            \item Synergist
+            \begin{itemize}
+                \item Role Level 3
+                \item 4 ndoes, Strength +5
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{menu}
+\begin{shop}{44\,000}
+\begin{itemize}
+    \item Eden Pharmaceuticals
+    \begin{itemize}
+        \item Sell
+        \begin{itemize}
+            \item Accessories
+            \begin{itemize}
+                \item Imperial Armlet
+            \end{itemize}
+        \end{itemize}
+        \item Buy
+        \begin{itemize}
+            \item Librascope x2
+            \item Fortisol x1
+            \item Aegisol x1
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{shop}
+\pickup{Ethersol}{in the final hallway}
+
+\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
+\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
+\renewcommand{\fourth}{[4] Malevolence (\syn/\rav/\rav)}
+
+Activate all shrouds.
+
+\begin{battle}{Bathandelus 3}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Librascope
+        \item Blitz-Blitz, \rav-buffer the first Blitz
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder
+        \item Repeat
+        \item Repeat two spells if no Imperil or was inflicted late
+        \item Shift at 200\% chain (no Imperil) or 220\% chain (Imperil)
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item Potion twice
+        \item \textit{If no Imperil}
+        \begin{itemize}
+            \item Potion
+            \item Shift after Ultimata
+            \item \fifth
+            \begin{itemize}
+                \item Throw Potions until Imperil inflicts
+                \item If \stagger Retry
+            \end{itemize}
+            \item \first
+            \begin{itemize}
+                \item Repeat until Ultima
+            \end{itemize}
+            \item \third
+            \begin{itemize}
+                \item Potions
+                \item Shift after Ultima hits
+            \end{itemize}
+        \end{itemize}
+        \item \textit{If Imperil and no Deprotect}
+        \begin{itemize}
+            \item \fifth
+            \begin{itemize}
+                \item Renew
+                \item Shift after Deprotect
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Renew if anyone is yellow health
+        \item Cold Blood
+        \item Shift towards the end for ATB refresh
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat twice
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat
+        \item Repeat after Laughter, try to get one in during Laughter
+        \item ATB refresh if possible
+    \end{itemize}
+    \item \second
+    \begin{itemize}
+        \item Repeat until victory or stagger end
+    \end{itemize}
+    \columnbreak
+    \item \textit{If stagger ends}:
+    \item \third
+    \begin{itemize}
+        \item Renew
+        \item Potion after Ultima
+    \end{itemize}
+    \item \textit{If Bart is close to death}:
+    \begin{itemize}
+        \item \first
+        \begin{itemize}
+            \item Repeat until victory
+        \end{itemize}
+    \end{itemize}
+    \item \textit{Else}:
+    \begin{itemize}
+        \item \sixth
+            \begin{itemize}
+                \item Fire-Thunder-Fire-Thunder
+                \item Repeat until \stagger
+                \item Use [5] to inflict any missing debuffs
+            \end{itemize}
+        \item \first
+        \begin{itemize}
+            \item Repeat until victory
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+\end{battle}
+\begin{battle}{Orphan 1}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Librascope, Shift immediately
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item \textbf{MERCILESS JUDGMENT}
+        \item Renew
+        \item Quake
+        \item \textbf{SLAP}, Shift immediately
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-support (Haste Sazh)
+        \item Auto-support (Haste Snow)
+        \item Auto-suport (Haste Vanille)
+        \item Vigilence Sazh
+        \item Shift to tank slap
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item \textbf{SLAP}, Shift after Challenge lands
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Bravery-Enthunder Sazh
+        \item Repeat Snow
+        \item Shift to tank slap
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item \textbf{SLAP}, Shift after Challenge lands
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Fire-Thudner-Fire-Thunder
+        \item Renew
+        \item Shift to tank next attack
+    \end{itemize}
+    \item \third
+    \begin{itemize}
+        \item \textbf{SLAP/REQUIEM}, Shift after Challenge lands
+    \end{itemize}
+    \vfill\null
+    \columnbreak
+    \item From now until Tireless Charge, shift to [3] whenever Orphan attacks and shift back after re-provoke
+    \item \fifth
+    \begin{itemize}
+        \item Repaet or use Potions until Deprotect, Imperil, Poison
+        \item Tank in [3]
+        \item After \stagger use Cold Blood
+        \item Shift after all 3 debuffs have landed and used Cold Blood
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Repeat until \textbf{Merciless Judgement}
+        \item Phoenix Down Vanille if needed
+        \item \textbf{MERCILESS JUDGMENT}
+        \item \textbf{OPPOSITE EXTREMES}
+        \item Elixer, if locked into Blitz buffer into [6] and Elixer there
+        \item Repeat a Blitz and \rav-buffer
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Renew, Haste Sazh, depend order depending on if Sazh was hit
+    \end{itemize}
+    \item \textit{If Orphan uses Vile Exploitation}:
+    \begin{itemize}
+        \item Repeat while Sazh is still healthy
+        \item Summong
+    \end{itemize}
+    \item \textit{If Orphan uses Dies Irae or Progential Wrath}:
+    \begin{itemize}
+        \item Summon, execute when the hand swings up
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Blitz-Blitz
+        \item Repeat with ATB refresh with [2] until victory
+        \item Gestalt mode to poison stall to kill if things go sideways
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+\end{battle}
+\begin{battle}{Orphan 2}
+\begin{itemize}
+    \item \second
+    \begin{itemize}
+        \item Blitz, \syn-buffer
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Auto-support Vanille (Down, Haste)
+        \item Auto-support Sazh (Haste)
+        \item Auto-support Snow (Haste)
+    \end{itemize}
+    \item \sixth
+    \begin{itemize}
+        \item Fire-Thunder-Fire-Thunder
+    \end{itemize}
+    \item \fourth
+    \begin{itemize}
+        \item Enthunder Snow
+        \item If Slap, try to use Potion or Renew to noit get launched
+        \item Enthunder-Bravery Sazh
+        \item Shift after Snow's fifth spell
+    \end{itemize}
+    \item \fifth
+    \begin{itemize}
+        \item Repeat until \stagger
+        \item Aerora-Aero
+        \item Repeat until Deprotect and Imperil
+    \end{itemize}
+    \item \first
+    \begin{itemize}
+        \item Blitz-Blitz if in Blitz Range
+        \item Auto-battle single attack if just Launched
+        \item Cancel second Blitz to make sure that they land after landing if needed
+        \item Repeat until victory
+    \end{itemize}
+\end{itemize}
+\end{battle}
+\end{document}
