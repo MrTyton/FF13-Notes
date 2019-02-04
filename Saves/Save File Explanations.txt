@@ -1,4 +1,6 @@
-These saves have a bonus Fortisol so that you can practice the fort fights.
+These saves have a bonus Fortisol.
+These saves have 2 bonus Deceptisols.
+These saves have a bonus Aegisol.
 
 Saves:
 
@@ -19,3 +21,7 @@ Save 7: Chapter 4, Before Incubus x2 & Succubus Menu
 Save 8: Chapter 4, Before Odin Fight Menu
 
 Save 9: Chapter 4, End of Chapter Fights
+
+Save 10: Chapter 5, Beginning
+
+Save 11: Chapter 5, Before Milvus Velocycle
