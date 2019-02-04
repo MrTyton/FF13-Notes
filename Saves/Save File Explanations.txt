@@ -25,3 +25,21 @@ Save 9: Chapter 4, End of Chapter Fights
 Save 10: Chapter 5, Beginning
 
 Save 11: Chapter 5, Before Milvus Velocycle
+
+Save 12: Chapter 6, Beginning
+
+Save 13: Chapter 6, Before Enki and Enlil
+
+Save 14: Chapter 7, Beginning
+
+Save 15: Chapter 7, Before Orion
+
+Save 16: Chapter 7, Before Ushu 1
+
+Save 17: Chapter 7, After Ushu 1
+
+Save 18: Chapter 7, Before Hope House Fights
+
+Save 19: Chapter 8, Before nighttime.
+
+Save 20: Chapter 8, Before Midlight Reaper
