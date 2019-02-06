@@ -45,5 +45,10 @@ Saves:
     * Save 25, Before Bart 1
 10. Chapter 10:
     * Save 26, Before Pulsework Knight x2
+    * Save 27, Before Cid
+    * Save 28, Before Bahamut
+11. Chapter 11:
+    * Save 29, Beginning Cutscene
+    * Save 30, Before Rust Pudding Shop
 
 
