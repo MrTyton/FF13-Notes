@@ -50,5 +50,7 @@ Saves:
 11. Chapter 11:
     * Save 29, Beginning Cutscene
     * Save 30, Before Rust Pudding Shop
+    * Save 31, Before Hecatoncheir
+    * Save 32, Bottom of Taejin's Tower
 
 
