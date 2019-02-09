@@ -52,5 +52,11 @@ Saves:
     * Save 30, Before Rust Pudding Shop
     * Save 31, Before Hecatoncheir
     * Save 32, Bottom of Taejin's Tower
+    * Save 33, Before Dahaka
+    * Save 34, Before Barthandelus 2
+12. Chapter 12:
+    * Save 35: Opening Cutscene
+    * Save 36: Before Bulwarker
+    * Save 37: Before Proudclad 1
 
 
