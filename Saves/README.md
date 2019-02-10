@@ -58,5 +58,6 @@ Saves:
     * Save 35: Opening Cutscene
     * Save 36: Before Bulwarker
     * Save 37: Before Proudclad 1
+    * Save 38: Before Proudclad 2
 
 
