@@ -33,7 +33,7 @@
 {\paradigmline{(\med)}{\com}{(\com)}}%
 {\paradigmline{(\sab)}{\com}{\com}}%
 {\paradigmline{(\sab)}{\sen}{(\syn)}}%
-{\paradigmline{(\rav)}{(\rav)}{\com}}%
+{\paradigmline{(\rav)}{(\rav)}{(\syn)}}%
 {\paradigmline[5]{\textit{(\sab)}}{\textit{(\rav)}}{\textit{\rav}}}%
 {\paradigmline{\rav}{\rav}{\rav}}
     \end{itemize}
@@ -187,9 +187,9 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
         \item \paradigmdeck{%
 \paradigmline{Sazh}{Snow}{Vanille}}%
 {\paradigmline{\com}{\com}{\med}}%
-{\paradigmline{\com}{\com}{(\com)}}%
-{\paradigmline{(\rav)}{(\rav)}{(\med)}}%
-{\paradigmline[4]{\textit{\com}}{\textit{\rav}}{\textit(\sab)}}%
+{\paradigmline[2]{\textit{\com}}{\textit{\com}}{\textit{(\rav)}}}%
+{\paradigmline{(\sen)}{\sen}{(\med)}}%
+{\paradigmline{\syn}{\rav}{\rav}}%
 {\paradigmline{\rav}{\rav}{\sab}}%
 {\paradigmline{\rav}{\rav}{\rav}}
     \end{itemize}
@@ -242,14 +242,15 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
 \end{menu}
 \textbf{Ethersol} on the elevator, \textbf{Deceptisol} first jump, \textbf{Fortisol} second jump, \textbf{Aegisol} last jump.
 \renewcommand{\first}{[1] Tireless Charge (\com/\com/\med)}
-\renewcommand{\second}{[2] Cerberus (\com/\com/\com)}
-\renewcommand{\third}{[3] Thaumaturgy (\rav/\rav/\med)}
-\renewcommand{\fourth}{[4] Relentless Assault (\com/\rav/\rav)}
+\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
+\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
+\renewcommand{\fourth}{[4] Malevolence (\syn/\rav/\rav)}
 \renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
 \renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 \begin{battle}{Tiamat Eliminator}
+\begin{multicols}{2}
 \begin{itemize}
-    \item \fourth
+    \item \second
     \begin{itemize}
         \item Attack-Attack-Blitz, \rav-buffer the Blitz
     \end{itemize}
@@ -260,10 +261,13 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
         \item Auto-chain if Tail Hammer
         \item Repeat just before Stagger, shift after Sazh fires the first bullet
     \end{itemize}
-    \item \third
+    \item \fourth
+    \begin{itemize}
+        \item Shift
+    \end{itemize}
+    \item \sixth
     \begin{itemize}
         \item Repeat
-        \item Shift towards the end of Cold Blood for an ATB refresh
     \end{itemize}
     \item \second
     \begin{itemize}
@@ -271,6 +275,7 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
         \item Repeat, ATB refresh with [1] until stagger ends
         \item Attack-Attack-Blitz when Tiamat drops to the ground, \rav-buffer the Blitz
     \end{itemize}
+    \columnbreak
     \item \fifth
     \begin{itemize}
         \item Repeat until stagger, refresh with [6]
@@ -283,22 +288,11 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
         \item Repeat until Victory
     \end{itemize}
 \end{itemize}
+\end{multicols}
 \end{battle}
 
 \begin{menu}
-\begin{multicols}{2}
 \begin{itemize}
-    \paradigm
-    \begin{itemize}
-        \item \paradigmdeck{%
-\paradigmline{Sazh}{Snow}{Vanille}}%
-{\paradigmline{\com}{\com}{\med}}%
-{\paradigmline[2]{\textit{\com}}{\textit{\com}}{\textit{(\rav)}}}%
-{\paradigmline{(\sen)}{(\sen)}{\med}}%
-{\paradigmline{(\syn)}{\rav}{\rav}}%
-{\paradigmline{\sab}{\rav}{\rav}}%
-{\paradigmline{\rav}{\rav}{\rav}}
-    \end{itemize}
     \crystarium
     \begin{itemize}
         \item Sazh
@@ -316,7 +310,6 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
         \end{itemize}
     \end{itemize}
 \end{itemize}
-\end{multicols}
 \end{menu}
 \begin{shop}{44\,000}
 \begin{itemize}
@@ -339,10 +332,6 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
 \end{itemize}
 \end{shop}
 \pickup{Ethersol}{in the final hallway}
-
-\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
-\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
-\renewcommand{\fourth}{[4] Malevolence (\syn/\rav/\rav)}
 
 Activate all shrouds.
 
