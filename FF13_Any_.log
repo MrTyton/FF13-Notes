@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  14 JUL 2019 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  31 JUL 2019 08:48
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -1121,11 +1121,6 @@ Overfull \hbox (28.4956pt too wide) in paragraph at lines 377--378
 [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 440--442
-[]\OT1/cmr/m/n/10 [2] Re-lent-less As-sault
- []
-
 ) (Chapters/chapter8.texpdfTeX warning (ext4): destination with the same identi
 fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1133,16 +1128,6 @@ fier (name{page.}) has been already used, duplicate ignored
 l.1 \chapter
             [Chapter 8]{} [18]
 Chapter 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-[]\OT1/cmr/m/n/10 Optimize: Bal-anced (Tung-sten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-[]\OT1/cmr/m/n/10 Optimized: Bal-anced (Shield
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -1248,11 +1233,6 @@ l.1 \chapter
             [Chapter 11]{} [26]
 Chapter 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-[]\OT1/cmr/m/n/10 [6] Re-lent-less As-sault
- []
-
-
 Overfull \hbox (15.3484pt too wide) in paragraph at lines 72--73
 [][] 
  []
@@ -1327,35 +1307,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 728--729
 rior's
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 812--813
-[]\OT1/cmr/m/n/10 Shift if De-pro-tect and close to
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.867 
+l.868 
        [31]
-Underfull \hbox (badness 10000) in paragraph at lines 899--900
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
 []\OT1/cmr/m/n/10 Repeat un-til \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m/n/10 , then
  use
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--937
+Underfull \hbox (badness 10000) in paragraph at lines 937--938
 []\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder un-til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 957--958
+Underfull \hbox (badness 10000) in paragraph at lines 958--959
 []\OT1/cmr/m/n/10 Repeat un-til \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m/n/10 , then
  use
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 974--975
+Underfull \hbox (badness 10000) in paragraph at lines 975--976
 []\OT1/cmr/m/n/10 If sec-ond stag-ger ends, \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m
 /n/10 with
  []
@@ -1364,7 +1339,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.980 \save{2}
+l.981 \save{2}
                [32]) (Chapters/chapter12.texpdfTeX warning (ext4): destination 
 with the same identifier (name{page.}) has been already used, duplicate ignored
 
@@ -1464,8 +1439,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 
-       [38
+l.176 T
+       ake the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol}...
+[38
 
 ]
 Overfull \hbox (8.90395pt too wide) in paragraph at lines 213--214
@@ -1473,13 +1449,13 @@ Overfull \hbox (8.90395pt too wide) in paragraph at lines 213--214
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 246--247
+Underfull \hbox (badness 6876) in paragraph at lines 245--246
 []\OT1/cmr/m/n/10 Attack-Attack-Blitz, []\OT1/cmr/bx/n/10 RAV[]\OT1/cmr/m/n/10 
 -buffer the
  []
 
 
-Overfull \hbox (10.96217pt too wide) in paragraph at lines 340--342
+Overfull \hbox (10.96217pt too wide) in paragraph at lines 339--341
 []\OT1/cmr/m/n/10 [1] Tire-less Charge ([]\OT1/cmr/bx/n/10 COM[]\OT1/cmr/m/n/10
  )/[]\OT1/cmr/bx/n/10 COM[]\OT1/cmr/m/n/10 /[]\OT1/cmr/bx/n/10 MED[]\OT1/cmr/m/
 n/10 ) 
@@ -1489,12 +1465,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.499 \end{battle}
+l.498 \end{battle}
                    [39]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.540 \end{battle}
+l.539 \end{battle}
                    [40])pdfTeX warning (ext4): destination with the same identi
 fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1528,7 +1504,7 @@ ers/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 sfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (42 pages, 282503 bytes).
+Output written on FF13_Any_.pdf (42 pages, 282495 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)
