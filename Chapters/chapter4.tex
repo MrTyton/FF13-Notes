@@ -364,7 +364,8 @@ Try to hit 25 Pulsework Soldiers in the minigame.
 \renewcommand{\second}{[2] Supersoldier (\com/\syn)}
 \renewcommand{\fourth}{[4] Dualcasting (\rav/\rav)}
 \renewcommand{\fifth}{[5] Dualcasting (\rav/\rav)}
-If you have 1 or more Aegisols, can use here.
+If you have 1 or more Aegisols, can use on Odin.
+\vfill
 \begin{battle}{Odin}
 \begin{itemize}
     \item \second
@@ -497,12 +498,9 @@ Run backwards to trigger cut-scene
         \begin{itemize}
             \item Power Wristband
             \begin{itemize}
-                \item Cie'th Tear/Tear of Frustration until you've used 3
+                \item Cie'th Tear/Tear of Frustration x3
                 \item Thickened Hide - All (Level 2, 1.75/2x EXP)
-                \item \textit{If it's not at 2x EXP, until it hits 2x EXP}
-                \begin{enumerate}
-                    \item Whatever organics are left
-                \end{enumerate}
+                \item \textit{If it's not at 2x EXP, keep using organics}
                 \item Polymer Emulsion - x27 (*)
             \end{itemize}
 		\item Magician's Mark
@@ -586,9 +584,9 @@ Run backwards to trigger cut-scene
 \end{battle}
 If you don't get the pre-empt on the following fight don't retry, just do the alternate strategy
 
-\end{multicols}
-\begin{battle}{Bomb x2 Pre-Empt $|$ Not Pre-Empt}
-\begin{multicols}{2}
+\begin{battle}{Bomb x2}
+\begin{itemize}
+\item \textit{If Pre-Empt}
 \begin{itemize}
     \item \second
     \begin{itemize}
@@ -599,7 +597,7 @@ If you don't get the pre-empt on the following fight don't retry, just do the al
         \item Auto-battle Bomb B
     \end{itemize}
 \end{itemize}
-\columnbreak
+\item \textit{Else}
 \begin{itemize}
     \item \second
     \begin{itemize}
@@ -612,7 +610,7 @@ If you don't get the pre-empt on the following fight don't retry, just do the al
 		\item If both are self-destruction, Auto-battle closest, if they're both close split and pray.
     \end{itemize}
 \end{itemize}
-\end{multicols}
+\end{itemize}
 \itemdrop{6}{Aegisol}
 \end{battle}
 
@@ -643,4 +641,6 @@ If you don't get the pre-empt on the following fight don't retry, just do the al
 \pickup{300 Gil}{treasure chest in the cave}
 
 \save{1}.
+
 \save{2}.
+\end{multicols}

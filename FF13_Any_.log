@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  10 AUG 2019 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  21 AUG 2019 21:28
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -661,6 +661,70 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 .sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
+("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.s
+ty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen193
+))
+("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen194
+)
+("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count277
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count278
+\leftroot@=\count279
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count280
+\DOTSCASE@=\count281
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box86
+\strutbox@=\box87
+\big@size=\dimen195
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count282
+\c@MaxMatrixCols=\count283
+\dotsspace@=\muskip16
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
+\tag@help=\toks32
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
+\andhelp@=\toks33
+\eqnshift@=\dimen196
+\alignsep@=\dimen197
+\tagshift@=\dimen198
+\tagwidth@=\dimen199
+\totwidth@=\dimen256
+\lineht@=\dimen257
+\@envbody=\toks34
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref
 .sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
@@ -713,9 +777,9 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 s.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen193
-\Hy@linkcounter=\count277
-\Hy@pagecounter=\count278
+\@linkdim=\dimen258
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
 
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.d
 ef"
@@ -723,7 +787,7 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count279
+\Hy@SavedSpaceFactor=\count291
 
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref
 .cfg"
@@ -736,16 +800,16 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count280
+\c@Hy@tempcnt=\count292
  ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
-\Urlmuskip=\muskip16
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen194
-\Fld@menulength=\count281
-\Field@Width=\dimen195
-\Fld@charsize=\dimen196
+\XeTeXLinkMargin=\dimen259
+\Fld@menulength=\count293
+\Field@Width=\dimen260
+\Fld@charsize=\dimen261
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -755,17 +819,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count282
-\c@Item=\count283
-\c@Hfootnote=\count284
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.
 def"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count285
-\c@bookmark@seq@number=\count286
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
 
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfil
 echeck.sty"
@@ -773,7 +837,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip54
+\Hy@SectionHShift=\skip57
 )
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyphenat\hyphenat
 .sty"
@@ -781,49 +845,49 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language76
 LaTeX Info: Redefining \_ on input line 43.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem
 .sty"
 Package: enumitem 2019/02/04 v3.8 Customized lists
-\labelindent=\skip55
-\enit@outerparindent=\dimen197
-\enit@toks=\toks31
-\enit@inbox=\box86
-\enit@count@id=\count287
-\enitdp@description=\count288
+\labelindent=\skip58
+\enit@outerparindent=\dimen262
+\enit@toks=\toks36
+\enit@inbox=\box88
+\enit@count@id=\count299
+\enitdp@description=\count300
 ) (FF13_Any_.aux)
 \openout1 = `FF13_Any_.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
 pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen198
-\scratchbox=\box87
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen199
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count301
+\scratchdimen=\dimen263
+\scratchbox=\box89
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen264
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks38
 )
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf
 -base.sty"
@@ -874,8 +938,8 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box88
-Package hyperref Info: Link coloring ON on input line 30.
+\AtBeginShipoutBox=\box90
+Package hyperref Info: Link coloring ON on input line 31.
 
 ("C:\Users\Joshua\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.
 sty"
@@ -885,21 +949,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count295
+\c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (FF13_Any_.out) (FF13_Any_.out)
 \@outlinefile=\write6
 \openout6 = `FF13_Any_.out'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
  [1
 
 {C:/Users/Joshua/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (FF13_Any_
@@ -908,7 +966,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout7 = `FF13_Any_.toc'.
 
 
-Overfull \hbox (21.64427pt too wide) in paragraph at lines 82--83
+Overfull \hbox (21.64427pt too wide) in paragraph at lines 83--84
 \OT1/cmr/m/n/10 Everyone in the FF13 Dis-cord. In no par-tic-u-lar or-der: \OT1
 /cmr/bx/n/10 Roost-alol\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Lewd-Dol-phin\OT1/cmr
 /m/n/10 , \OT1/cmr/bx/n/10 Flux\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Yeswally1\OT1
@@ -954,12 +1012,8 @@ ifier (name{page.}) has been already used, duplicate ignored
 l.1 \chapter
             [Chapter 3]{} [4]
 Chapter 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
 
-Overfull \hbox (0.96964pt too wide) in paragraph at lines 42--43
+Overfull \hbox (0.96964pt too wide) in paragraph at lines 51--52
 [][] 
  []
 
@@ -967,11 +1021,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.189 
+l.202 
        [5
 
 ]
-Underfull \hbox (badness 6332) in paragraph at lines 207--208
+Underfull \hbox (badness 6332) in paragraph at lines 220--221
 []\OT1/cmr/m/n/10 Repeat 1 at-tack, pre-vents Light-ning's
  []
 
@@ -1003,24 +1057,19 @@ l.289 \begin
 er (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.505 
-       [9]) (Chapters/chapter5.texpdfTeX warning (ext4): destination with the s
-ame identifier (name{page.}) has been already used, duplicate ignored
+l.514 
+       [9]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            [Chapter 5]{} [10]
+l.646 \end{multicols}
+                      [10]) (Chapters/chapter5.tex
 Chapter 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-[]\OT1/cmr/m/n/10 Use Auto-chain if Light-ning doesn't
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 
+l.179 
        [11
 
 ]
@@ -1030,7 +1079,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.309 \end{multicols}
+l.308 \end{multicols}
                       [12]) (Chapters/chapter6.tex
 Chapter 6.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -1057,41 +1106,41 @@ fier (name{page.}) has been already used, duplicate ignored
 l.1 \chapter
             [Chapter 7]{} [14]
 Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]\OT1/cmr/m/n/10 Summon, ex-e-cute when Ushum-gal
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 \begin
-            {battle}{Ushumgal Subjugator 1 (Snow Lead)} [15
+l.161 \save{2}
+               [15
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-[]\OT1/cmr/m/n/10 Summon, ex-e-cute when Ushum-gal
- []
-
-
-Overfull \hbox (9.03893pt too wide) in paragraph at lines 209--210
+Overfull \hbox (9.03893pt too wide) in paragraph at lines 194--195
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 []\OT1/cmr/m/n/10 Accessory: Tung-sten Ban-gle $\OMS/cmsy/m/n/10 !$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-[]\OT1/cmr/m/n/10 COM-buffer Light-ning's sec-ond Thun-dara
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[][]\OT1/cmr/bx/n/10 COM[]\OT1/cmr/m/n/10 -buffer Light-ning's third string of
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.322 \pickup
+l.304 \pickup
              {Phoenix Down}{near the entrance to Hope's house for money safety}
 [16]
-Overfull \hbox (14.26923pt too wide) in paragraph at lines 377--378
+Overfull \hbox (14.26923pt too wide) in paragraph at lines 359--360
 [][] 
  []
 
@@ -1215,7 +1264,7 @@ een already used, duplicate ignored
                    \relax 
 l.735 
        [29]
-Overfull \hbox (1.88297pt too wide) in paragraph at lines 836--837
+Overfull \hbox (30.96619pt too wide) in paragraph at lines 836--837
 [][] 
  []
 
@@ -1349,38 +1398,39 @@ l.539 \end{battle}
 fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 \end{document}
+l.111 \end{document}
                      [39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (FF13_Any_.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `FF13_Any_.out' has not changed.
 (rerunfilecheck)             Checksum: C2CB70494E946CEEDBE0C5EB567FCB97;597.
  ) 
 Here is how much of TeX's memory you used:
- 26096 strings out of 492946
- 505347 string characters out of 3125822
- 686682 words of memory out of 3000000
- 29636 multiletter control sequences out of 15000+200000
- 538203 words of font info for 43 fonts, out of 3000000 for 9000
+ 26677 strings out of 492946
+ 512198 string characters out of 3125822
+ 697139 words of memory out of 3000000
+ 30200 multiletter control sequences out of 15000+200000
+ 539950 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,10n,73p,835b,729s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,15n,73p,835b,684s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Joshua/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Joshua/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Us
 ers/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (40 pages, 280084 bytes).
+10.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on FF13_Any_.pdf (40 pages, 287504 bytes).
 PDF statistics:
  257 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
+ 22 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
