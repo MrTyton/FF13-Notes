@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  26 AUG 2019 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  26 AUG 2019 20:48
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -912,15 +912,15 @@ G,.JBIG2,.JB2,.eps]
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(14.45377pt, 585.38747pt, 14.45377pt)
-* v-part:(T,H,B)=(14.45377pt, 766.06245pt, 14.45377pt)
+* h-part:(L,W,R)=(28.90755pt, 556.4799pt, 28.90755pt)
+* v-part:(T,H,B)=(28.90755pt, 737.15489pt, 28.90755pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=585.38747pt
-* \textheight=766.06245pt
-* \oddsidemargin=-57.81622pt
-* \evensidemargin=-57.81622pt
-* \topmargin=-94.81622pt
+* \textwidth=556.4799pt
+* \textheight=737.15489pt
+* \oddsidemargin=-43.36244pt
+* \evensidemargin=-43.36244pt
+* \topmargin=-80.36244pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -965,8 +965,17 @@ LaTeX Info: Redefining \nameref on input line 49.
 \tf@toc=\write7
 \openout7 = `FF13_Any_.toc'.
 
- (Chapters/chapter1.texpdfTeX warning (ext4): destination with the same identif
-ier (name{page.}) has been already used, duplicate ignored
+
+Overfull \hbox (21.64427pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/n/10 Everyone in the FF13 Dis-cord. In no par-tic-u-lar or-der: \OT1
+/cmr/bx/n/10 Roost-alol\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Lewd-Dol-phin\OT1/cmr
+/m/n/10 , \OT1/cmr/bx/n/10 Flux\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Yeswally1\OT1
+/cmr/m/n/10 , \OT1/cmr/bx/n/10 Lil-Sharkie\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 xJ
+ake-Dream-erx\OT1/cmr/m/n/10 ,
+ []
+
+(Chapters/chapter1.texpdfTeX warning (ext4): destination with the same identifi
+er (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
@@ -993,249 +1002,299 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \newpage
-               [3
+l.144 \end{multicols}
+                      [3
 
-]) (Chapters/chapter3.texpdfTeX warning (ext4): destination with the same ident
-ifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            [Chapter 3]{} [4]
+]) (Chapters/chapter3.tex
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-[]\OT1/cmr/m/n/10 Repeat 1 at-tack, pre-vents Light-ning's
+Overfull \hbox (0.96964pt too wide) in paragraph at lines 51--52
+[][] 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 
-       [5
+l.207 \pickup{Phoenix Down}{right of the stairs}
+                                                 \pickup{2 Librascopes}{left...
+[4
 
-]) (Chapters/chapter4.texpdfTeX warning (ext4): destination with the same ident
-ifier (name{page.}) has been already used, duplicate ignored
+]
+Underfull \hbox (badness 6332) in paragraph at lines 220--221
+[]\OT1/cmr/m/n/10 Repeat 1 at-tack, pre-vents Light-ning's
+ []
+
+) (Chapters/chapter4.texpdfTeX warning (ext4): destination with the same identi
+fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            [Chapter 4]{} [6]
+            [Chapter 4]{} [5]
 Chapter 4.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.111 \newpage
-               [7
+               [6
 
 ]
-Underfull \hbox (badness 5388) in paragraph at lines 263--264
-[]\OT1/cmr/m/n/10 Auto-chain when Dread-nought turns or uses
+Overfull \hbox (5.26117pt too wide) in paragraph at lines 130--131
+[][] 
  []
-
-
-Overfull \vbox (25.51888pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (25.51888pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.330 
+l.289 \begin
+            {menu} [7]pdfTeX warning (ext4): destination with the same identifi
+er (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.514 
        [8]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.539 
-       [9]
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
-[]\OT1/cmr/m/n/10 If nei-ther Bomb is self-destructing,
- []
-
-) (Chapters/chapter5.texpdfTeX warning (ext4): destination with the same identi
-fier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            [Chapter 5]{} [10]
+l.646 \end{multicols}
+                      [9]) (Chapters/chapter5.tex
 Chapter 5.
-
-Overfull \vbox (51.89784pt too high) has occurred while \output is active []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.227 \end{multicols}
-                      [11
+l.225 \end{menu}
+                 [10
 
 ]) (Chapters/chapter6.texpdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            [Chapter 6]{} [12]
+            [Chapter 6]{} [11]
 Chapter 6.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.113 \newpage
-               [13
-
-]) (Chapters/chapter7.texpdfTeX warning (ext4): destination with the same ident
-ifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            [Chapter 7]{} [14]
-Chapter 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-[]\OT1/cmr/m/n/10 Froststrike x4, ex-e-cute when Ushum-gal
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.237 \end{multicols}
-                      [15
+               [12
 
 ]
-Underfull \hbox (badness 5878) in paragraph at lines 268--269
-[]\OT1/cmr/m/n/10 Animation can-cel Light-ning's third string of
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]\OT1/cmr/m/n/10 Shift af-ter Sazh's sec-ond spell (sec-ond
  []
 
 
-Overfull \vbox (17.74112pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+[]\OT1/cmr/m/n/10 Auto-chain or Fire-Aero-Fire un-til
+ []
 
+) (Chapters/chapter7.texpdfTeX warning (ext4): destination with the same identi
+fier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            [Chapter 7]{} [13]
+Chapter 7.
 
-Overfull \vbox (17.74112pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+[]\OT1/cmr/m/n/10 Summon, ex-e-cute when Ushum-gal
+ []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.339 
-       [16]) (Chapters/chapter8.texpdfTeX warning (ext4): destination with the 
-same identifier (name{page.}) has been already used, duplicate ignored
+l.164 \newpage
+               [14
+
+]
+Overfull \hbox (9.03893pt too wide) in paragraph at lines 192--193
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+[]\OT1/cmr/m/n/10 Accessory: Tung-sten Ban-gle $\OMS/cmsy/m/n/10 !$
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.298 \newpage
+               [15]
+Overfull \hbox (14.26923pt too wide) in paragraph at lines 356--357
+[][] 
+ []
+
+) (Chapters/chapter8.texpdfTeX warning (ext4): destination with the same identi
+fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            [Chapter 8]{} [17]
+            [Chapter 8]{} [16]
 Chapter 8.
 ) (Chapters/chapter9.texpdfTeX warning (ext4): destination with the same identi
 fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            [Chapter 9]{} [18
+            [Chapter 9]{} [17
 
 ]
 Chapter 9.
 
-Overfull \vbox (19.12007pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\OT1/cmr/m/n/10 Thunderfalls un-til both Raiders are
+ []
 
 
-Overfull \vbox (19.12007pt too high) has occurred while \output is active []
+Overfull \hbox (6.66396pt too wide) in paragraph at lines 38--39
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+[]\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder PSI-COM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+[]\OT1/cmr/m/n/10 Uraninite (War-rior's Wrist-band
+ []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.269 \end{shop}
-                 [19
+l.293 \end{upgrade}
+                    [18
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.305 \newpage
-               [20]pdfTeX warning (ext4): destination with the same identifier 
-(name{page.}) has been already used, duplicate ignored
+l.366 
+       [19]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.428 \newpage
-               [21]pdfTeX warning (ext4): destination with the same identifier 
-(name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.648 ...up{Ethersol}{before Barthandelus 1 fight}
-                                                   Activate \textbf{Fortisol}.
-[22]) (Chapters/chapter10.texpdfTeX warning (ext4): destination with the same i
-dentifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            [Chapter 10]{} [23]
-Chapter 10.
-
-Overfull \hbox (6.69183pt too wide) in paragraph at lines 17--18
-[][] 
+l.417 \newpage
+               [20]
+Overfull \hbox (12.61644pt too wide) in paragraph at lines 442--443
+[] 
  []
-
-
-Overfull \vbox (6.68556pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.187 \end{multicols}
-                      [24
+l.586 \end{multicols}
+                      [21]
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
+[]\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder, af-ter the
+ []
 
-]) (Chapters/chapter11.tex
+
+Underfull \hbox (badness 5189) in paragraph at lines 685--686
+[]\OT1/cmr/m/n/10 Repeat and Po-tion un-til chain is about
+ []
+
+) (Chapters/chapter10.texpdfTeX warning (ext4): destination with the same ident
+ifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            [Chapter 10]{} [22]
+Chapter 10.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \newpage
+              [23
+
+]) (Chapters/chapter11.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            [Chapter 11]{} [24]
 Chapter 11.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.296 
-       [25
+l.198 \end{upgrade}
+                    [25
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.408 
-       [26]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.}) has been already used, duplicate ignored
+l.302 \begin
+            {battle}{Rust Pudding x2} [26]pdfTeX warning (ext4): destination wi
+th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.645 
+l.492 
        [27]
-Overfull \hbox (10.82188pt too wide) in paragraph at lines 836--837
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+[]\OT1/cmr/m/n/10 Shield Tal-is-man $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 Soul-f
+ont
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.865 
-       [28]
-Underfull \hbox (badness 10000) in paragraph at lines 903--904
-[]\OT1/cmr/m/n/10 Repeat FTFT pre-stagger, Thunder-Aerora
+l.645 \newpage
+               [28]
+Underfull \hbox (badness 10000) in paragraph at lines 719--720
+[]\OT1/cmr/m/n/10 Soulfont Tal-is-man $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 War-
+rior's
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.775 \newpage
+               [29]
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+[]\OT1/cmr/m/n/10 Repeat un-til \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m/n/10 , then
+ use
  []
 
 
-Overfull \hbox (1.25682pt too wide) in paragraph at lines 935--936
-[]\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder un-til Apop-to-sis,
+Underfull \hbox (badness 7963) in paragraph at lines 899--900
+\OT1/cmr/m/n/10 are in-flicted, use items/heals as needed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
-[]\OT1/cmr/m/n/10 Repeat FTFT pre-stagger, Thunder-Aerora
+Underfull \hbox (badness 6876) in paragraph at lines 899--900
+\OT1/cmr/m/n/10 af-ter shift. Shift to [3] Thau-maturgy
  []
 
 
-Overfull \hbox (48.54268pt too wide) in paragraph at lines 973--974
+Underfull \hbox (badness 10000) in paragraph at lines 935--936
+[]\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder un-til
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 956--957
+[]\OT1/cmr/m/n/10 Repeat un-til \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m/n/10 , then
+ use
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 973--974
 []\OT1/cmr/m/n/10 If sec-ond stag-ger ends, \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m
-/n/10 with Fire-Thunder-Fire-Thunder
+/n/10 with
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -1243,62 +1302,122 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.979 \save{2}
-               [29]) (Chapters/chapter12.texpdfTeX warning (ext4): destination 
+               [30]) (Chapters/chapter12.texpdfTeX warning (ext4): destination 
 with the same identifier (name{page.}) has been already used, duplicate ignored
 
 <to be read again> 
                    \relax 
 l.1 \chapter
-            [Chapter 12]{} [30]
+            [Chapter 12]{} [31]
 Chapter 12.
+
+Overfull \hbox (2.84653pt too wide) in paragraph at lines 99--100
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+[]\OT1/cmr/m/n/10 [5] Thau-maturgy ([]\OT1/cmr/bx/n/10 RAV[]\OT1/cmr/m/n/10 /[]
+\OT1/cmr/bx/n/10 RAV[]\OT1/cmr/m/n/10 /[]\OT1/cmr/bx/n/10 MED[]\OT1/cmr/m/n/10 
+)\OT1/cmr/m/it/10 if
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.258 \end{menu}
-                 [31
+                 [32
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
-been already used, duplicate ignored
+]
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+[]\OT1/cmr/m/n/10 Froststrike-Blizzard-Blizzard-Blizzard-
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.322 \end{multicols}
-                      [32]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
+                      [33]
+Overfull \hbox (4.81647pt too wide) in paragraph at lines 343--344
+[][] 
+ []
+
+
+Overfull \hbox (1.06871pt too wide) in paragraph at lines 434--435
+[][] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.552 \save{1}
-               [33]) (Chapters/chapter13.texpdfTeX warning (ext4): destination 
+l.556 \save{1}
+               [34]) (Chapters/chapter13.texpdfTeX warning (ext4): destination 
 with the same identifier (name{page.}) has been already used, duplicate ignored
 
 <to be read again> 
                    \relax 
 l.1 \chapter
-            [Chapter 13]{} [34]
+            [Chapter 13]{} [35]
 Chapter 13.
+
+Overfull \hbox (5.00795pt too wide) in paragraph at lines 40--41
+[][] 
+ []
+
+
+Overfull \hbox (5.00795pt too wide) in paragraph at lines 49--50
+[][] 
+ []
+
+
+Overfull \hbox (7.78262pt too wide) in paragraph at lines 114--115
+[]\OT1/cmr/m/n/10 Deprotect-Poison-Deprotect-Poison-Deprotect 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.280 \end{battle}
-                   [35
+l.184 T
+       ake the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol}...
+[36
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.498 \end{battle}
-                   [36]pdfTeX warning (ext4): destination with the same identif
+l.305 
+       [37]
+Overfull \hbox (12.2914pt too wide) in paragraph at lines 362--364
+[]\OT1/cmr/m/n/10 [1]/[5] Tire-less Charge ([]\OT1/cmr/bx/n/10 COM[]\OT1/cmr/m/
+n/10 )/[]\OT1/cmr/bx/n/10 COM[]\OT1/cmr/m/n/10 /[]\OT1/cmr/bx/n/10 MED[]\OT1/cm
+r/m/n/10 ) 
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 475--476
+[]\OT1/cmr/bx/n/10 SLAP/REQUIEM\OT1/cmr/m/n/10 , Shift af-ter Chal-lenge
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.521 \end{battle}
+                   [38]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.539 \end{battle}
-                   [37])pdfTeX warning (ext4): destination with the same identi
+l.562 \end{battle}
+                   [39])pdfTeX warning (ext4): destination with the same identi
 fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.129 \end{document}
-                     [38]
+                     [40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (FF13_Any_.aux)
@@ -1310,11 +1429,11 @@ Package rerunfilecheck Info: File `FF13_Any_.out' has not changed.
 Here is how much of TeX's memory you used:
  26677 strings out of 492946
  512195 string characters out of 3125822
- 711478 words of memory out of 3000000
+ 703938 words of memory out of 3000000
  30200 multiletter control sequences out of 15000+200000
  539651 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,15n,73p,835b,682s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,15n,73p,835b,684s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.
@@ -1327,9 +1446,9 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (39 pages, 286851 bytes).
+Output written on FF13_Any_.pdf (41 pages, 289526 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
+ 260 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
