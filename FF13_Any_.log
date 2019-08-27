@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  26 AUG 2019 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  26 AUG 2019 20:55
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -998,11 +998,14 @@ l.1 \chapter
 
 ]
 Chapter 2.
+
+Overfull \vbox (2.9226pt too high) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.144 \end{multicols}
+l.145 \end{multicols}
                       [3
 
 ]) (Chapters/chapter3.tex
@@ -1373,7 +1376,7 @@ Overfull \hbox (5.00795pt too wide) in paragraph at lines 49--50
  []
 
 
-Overfull \hbox (7.78262pt too wide) in paragraph at lines 114--115
+Overfull \hbox (7.78262pt too wide) in paragraph at lines 113--114
 []\OT1/cmr/m/n/10 Deprotect-Poison-Deprotect-Poison-Deprotect 
  []
 
@@ -1381,7 +1384,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 T
+l.183 T
        ake the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol}...
 [36
 
@@ -1389,16 +1392,16 @@ l.184 T
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.305 
+l.304 
        [37]
-Overfull \hbox (12.2914pt too wide) in paragraph at lines 362--364
+Overfull \hbox (12.2914pt too wide) in paragraph at lines 361--363
 []\OT1/cmr/m/n/10 [1]/[5] Tire-less Charge ([]\OT1/cmr/bx/n/10 COM[]\OT1/cmr/m/
 n/10 )/[]\OT1/cmr/bx/n/10 COM[]\OT1/cmr/m/n/10 /[]\OT1/cmr/bx/n/10 MED[]\OT1/cm
 r/m/n/10 ) 
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 475--476
+Underfull \hbox (badness 6078) in paragraph at lines 474--475
 []\OT1/cmr/bx/n/10 SLAP/REQUIEM\OT1/cmr/m/n/10 , Shift af-ter Chal-lenge
  []
 
@@ -1406,30 +1409,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.521 \end{battle}
+l.520 \end{battle}
                    [38]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.562 \end{battle}
+l.561 \end{battle}
                    [39])pdfTeX warning (ext4): destination with the same identi
 fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 \end{document}
+l.130 \end{document}
                      [40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (FF13_Any_.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `FF13_Any_.out' has not changed.
 (rerunfilecheck)             Checksum: C2CB70494E946CEEDBE0C5EB567FCB97;597.
  ) 
 Here is how much of TeX's memory you used:
  26677 strings out of 492946
  512195 string characters out of 3125822
- 703938 words of memory out of 3000000
+ 704471 words of memory out of 3000000
  30200 multiletter control sequences out of 15000+200000
  539651 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1446,7 +1449,7 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (41 pages, 289526 bytes).
+Output written on FF13_Any_.pdf (41 pages, 289593 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
