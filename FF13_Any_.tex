@@ -22,6 +22,24 @@
     linkcolor=black,
     urlcolor=black
 }
+
+\makeatletter
+\def\@makechapterhead#1{%
+  %\vspace*{5\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \large\bfseries \MakeUppercase{\@chapapp}\space \thechapter
+        \par\nobreak
+%        \vskip 10\p@
+        \rule{\textwidth}{.1pt}%
+%        \vskip 10\p@
+    \fi
+    \interlinepenalty\@M
+%    \large \bfseries \MakeUppercase{#1}\par\nobreak
+%    \vskip 5\p@
+  }}
+\makeatother
+
 \usepackage{enumitem}
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 \usepackage{graphicx}
@@ -81,6 +99,7 @@
 
 \section*{Acknowledgements}
 Everyone in the FF13 Discord. In no particular order: \textbf{Roostalol}, \textbf{LewdDolphin}, \textbf{Flux}, \textbf{Yeswally1}, \textbf{LilSharkie}, \textbf{xJakeDreamerx}, \textbf{TehMonkey\_},  \textbf{xP3ndulum},  \textbf{NijiBashira}, \textbf{Mrzwanzig}, \textbf{QazPlm9000}, \textbf{Hoishin}, \textbf{Tiornys}, \textbf{MLSTRM}, and anyone else I forgot.
+
 
 \input{Chapters/chapter1.tex}
 
