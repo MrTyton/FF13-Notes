@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  28 AUG 2019 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  28 AUG 2019 23:31
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -1129,7 +1129,7 @@ een already used, duplicate ignored
                    \relax 
 l.298 \newpage
                [15]
-Overfull \hbox (14.26923pt too wide) in paragraph at lines 356--357
+Overfull \hbox (14.26923pt too wide) in paragraph at lines 357--358
 [][] 
  []
 
@@ -1436,7 +1436,7 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (41 pages, 289042 bytes).
+Output written on FF13_Any_.pdf (41 pages, 289062 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
