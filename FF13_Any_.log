@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  27 AUG 2019 09:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  28 AUG 2019 20:51
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -1019,12 +1019,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \pickup{Phoenix Down}{right of the stairs}
-                                                 \pickup{2 Librascopes}{left...
-[4
+l.205 
+       [4
 
 ]
-Underfull \hbox (badness 6332) in paragraph at lines 220--221
+Underfull \hbox (badness 6332) in paragraph at lines 216--217
 []\OT1/cmr/m/n/10 Repeat 1 at-tack, pre-vents Light-ning's
  []
 
@@ -1051,24 +1050,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.289 \begin
-            {menu} [7]pdfTeX warning (ext4): destination with the same identifi
-er (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.514 
-       [8]pdfTeX warning (ext4): destination with the same identifier (name{pag
+l.296 
+       [7]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.646 \end{multicols}
-                      [9]) (Chapters/chapter5.tex
+l.523 
+       [8]) (Chapters/chapter5.texpdfTeX warning (ext4): destination with the s
+ame identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            [Chapter 5]{} [9]
 Chapter 5.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.225 \end{menu}
+l.223 \end{menu}
                  [10
 
 ]) (Chapters/chapter6.texpdfTeX warning (ext4): destination with the same ident
@@ -1150,45 +1149,33 @@ l.1 \chapter
 
 ]
 Chapter 9.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.126 \newpage
+               [18
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]\OT1/cmr/m/n/10 Thunderfalls un-til both Raiders are
- []
-
-
-Overfull \hbox (6.66396pt too wide) in paragraph at lines 38--39
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-[]\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder PSI-COM
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+]
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 []\OT1/cmr/m/n/10 Uraninite (War-rior's Wrist-band
  []
+
+
+Overfull \vbox (10.82391pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.293 \end{upgrade}
-                    [18
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
-been already used, duplicate ignored
+l.323 \end{multicols}
+                      [19]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.366 
-       [19]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.417 \newpage
+l.404 \newpage
                [20]
-Overfull \hbox (12.61644pt too wide) in paragraph at lines 442--443
+Overfull \hbox (12.61644pt too wide) in paragraph at lines 429--430
 [] 
  []
 
@@ -1196,14 +1183,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.586 \end{multicols}
+l.573 \end{multicols}
                       [21]
-Underfull \hbox (badness 10000) in paragraph at lines 675--676
+Underfull \hbox (badness 10000) in paragraph at lines 662--663
 []\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder, af-ter the
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 685--686
+Underfull \hbox (badness 5189) in paragraph at lines 672--673
 []\OT1/cmr/m/n/10 Repeat and Po-tion un-til chain is about
  []
 
@@ -1430,13 +1417,13 @@ Package rerunfilecheck Info: File `FF13_Any_.out' has not changed.
 (rerunfilecheck)             Checksum: C2CB70494E946CEEDBE0C5EB567FCB97;597.
  ) 
 Here is how much of TeX's memory you used:
- 26677 strings out of 492946
- 512195 string characters out of 3125822
- 704471 words of memory out of 3000000
- 30200 multiletter control sequences out of 15000+200000
+ 26676 strings out of 492946
+ 512178 string characters out of 3125822
+ 707471 words of memory out of 3000000
+ 30199 multiletter control sequences out of 15000+200000
  539651 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,15n,73p,835b,684s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,15n,73p,835b,674s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.
@@ -1449,7 +1436,7 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (41 pages, 289539 bytes).
+Output written on FF13_Any_.pdf (41 pages, 289042 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
