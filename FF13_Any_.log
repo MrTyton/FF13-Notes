@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  29 AUG 2019 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  31 AUG 2019 15:38
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -999,19 +999,22 @@ l.1 \chapter
 ]
 Chapter 2.
 
-Overfull \vbox (2.9226pt too high) has occurred while \output is active []
+Overfull \vbox (8.1616pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (4.9226pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145 \end{multicols}
+l.140 \end{multicols}
                       [3
 
 ]) (Chapters/chapter3.tex
 Chapter 3.
 
-Overfull \hbox (0.96964pt too wide) in paragraph at lines 51--52
+Overfull \hbox (0.96964pt too wide) in paragraph at lines 53--54
 [][] 
  []
 
@@ -1019,16 +1022,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 
+l.210 
        [4
 
-]
-Underfull \hbox (badness 6332) in paragraph at lines 216--217
-[]\OT1/cmr/m/n/10 Repeat 1 at-tack, pre-vents Light-ning's
- []
-
-) (Chapters/chapter4.texpdfTeX warning (ext4): destination with the same identi
-fier (name{page.}) has been already used, duplicate ignored
+]) (Chapters/chapter4.texpdfTeX warning (ext4): destination with the same ident
+ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
@@ -1038,11 +1036,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \newpage
+l.102 \newpage
                [6
 
 ]
-Overfull \hbox (5.26117pt too wide) in paragraph at lines 130--131
+Overfull \hbox (5.26117pt too wide) in paragraph at lines 121--122
 [][] 
  []
 
@@ -1050,12 +1048,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.296 
+l.287 
        [7]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.523 
+l.514 
        [8]) (Chapters/chapter5.texpdfTeX warning (ext4): destination with the s
 ame identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1412,10 +1410,10 @@ Package rerunfilecheck Info: File `FF13_Any_.out' has not changed.
 (rerunfilecheck)             Checksum: C2CB70494E946CEEDBE0C5EB567FCB97;597.
  ) 
 Here is how much of TeX's memory you used:
- 26676 strings out of 492946
- 512178 string characters out of 3125822
- 707471 words of memory out of 3000000
- 30199 multiletter control sequences out of 15000+200000
+ 26675 strings out of 492946
+ 512161 string characters out of 3125822
+ 710728 words of memory out of 3000000
+ 30198 multiletter control sequences out of 15000+200000
  539651 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,15n,73p,835b,674s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1431,7 +1429,7 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (41 pages, 288837 bytes).
+Output written on FF13_Any_.pdf (41 pages, 289548 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
