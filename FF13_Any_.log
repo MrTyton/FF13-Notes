@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  1 SEP 2019 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  1 SEP 2019 14:22
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -1065,15 +1065,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 \end{menu}
+l.242 \end{menu}
                  [10
 
-]) (Chapters/chapter6.texpdfTeX warning (ext4): destination with the same ident
-ifier (name{page.}) has been already used, duplicate ignored
+]
+Overfull \vbox (14.79832pt too high) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            [Chapter 6]{} [11]
+l.326 \end{multicols}
+                      [11]) (Chapters/chapter6.tex
 Chapter 6.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
@@ -1434,7 +1437,7 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (41 pages, 289869 bytes).
+Output written on FF13_Any_.pdf (41 pages, 290003 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
