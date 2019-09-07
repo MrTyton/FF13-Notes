@@ -24,7 +24,7 @@ Saves:
     * Save 11: Watchdrone x3 & Pulsework Soldier
     * Save 12: Right past the Ninurta Chest
     * Save 13: Succubus & Incubus x2
-    * Save 14: Dreadnaught
+    * Save 14: Dreadnought
     * Save 15: Corpse Gunner x4 & PSICOM Tracker
     * Save 16: PSICOM Tracker x2
     * Save 17: Odin
