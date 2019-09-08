@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  8 SEP 2019 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  8 SEP 2019 14:51
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -966,12 +966,12 @@ LaTeX Info: Redefining \nameref on input line 49.
 \openout7 = `FF13_Any_.toc'.
 
 
-Overfull \hbox (15.57486pt too wide) in paragraph at lines 103--104
+Overfull \hbox (3.43604pt too wide) in paragraph at lines 103--104
 \OT1/cmr/m/n/10 Everyone in the FF13 Dis-cord. In no par-tic-u-lar or-der: \OT1
-/cmr/bx/n/10 Roost-alol\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Lewd-Dol-phin\OT1/cmr
-/m/n/10 , \OT1/cmr/bx/n/10 Flux\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Yeswally1\OT1
-/cmr/m/n/10 , \OT1/cmr/bx/n/10 Lil-Sharkie\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 xJ
-ake-Dreamer\OT1/cmr/m/n/10 ,
+/cmr/bx/n/10 Roosta\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Lewd-Dol-phin\OT1/cmr/m/n
+/10 , \OT1/cmr/bx/n/10 Flux\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Yeswally1\OT1/cmr
+/m/n/10 , \OT1/cmr/bx/n/10 Lil-Sharkie\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 xJake-
+Dreamer\OT1/cmr/m/n/10 ,
  []
 
 (Chapters/chapter1.texpdfTeX warning (ext4): destination with the same identifi
@@ -1437,7 +1437,7 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (41 pages, 290495 bytes).
+Output written on FF13_Any_.pdf (41 pages, 290488 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
