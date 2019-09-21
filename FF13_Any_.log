@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  19 SEP 2019 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  20 SEP 2019 23:35
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -1002,7 +1002,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.218 
+l.222 
        [4
 
 ]) (Chapters/chapter4.texpdfTeX warning (ext4): destination with the same ident
@@ -1019,8 +1019,13 @@ een already used, duplicate ignored
 l.103 \newpage
                [6
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
-been already used, duplicate ignored
+]
+Underfull \hbox (badness 7415) in paragraph at lines 165--166
+[]\OT1/cmr/m/n/10 Optimize: Bal-anced (Nin-urta, Sil-ver
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.280 
@@ -1090,7 +1095,7 @@ l.164 \newpage
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.298 \newpage
+l.301 \newpage
                [15]) (Chapters/chapter8.texpdfTeX warning (ext4): destination w
 ith the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1380,7 +1385,7 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (37 pages, 286648 bytes).
+Output written on FF13_Any_.pdf (37 pages, 286674 bytes).
 PDF statistics:
  242 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
