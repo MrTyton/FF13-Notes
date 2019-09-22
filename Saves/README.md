@@ -1,10 +1,10 @@
 # Practice Saves for FF13 Speedrun
 
 ### Whenever possible: these saves will always be done without the preceeding menu done.
-### These saves were created by KayaRune
+### These saves were created by Kayarune
 ### 
 
-### In order to use these saves, first diable `cloud saves`, then copy these files into `X:\Users\USERNAME\AppData\Local\SquareEnix\FinalFantasyXIII\save`
+#### In order to use these saves, first diable `cloud saves`, then copy these files into `X:\Users\USERNAME\AppData\Local\SquareEnix\FinalFantasyXIII\save`
 
 #### The saves have a base shroud count of 4 Deceptisols and 3 Fortisols.
 #### These saves have the CP for RL2 in Chapter 8
