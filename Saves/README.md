@@ -1,14 +1,28 @@
 # Practice Saves for FF13 Speedrun
 
 ### Whenever possible: these saves will always be done without the preceeding menu done.
-### These saves were created by LewdDolphin
-### The Chapter 13 saves are missing an Ethersol. This is only relevant for Tiamat Eliminator.
+### These saves were created by KayaRune
+### 
 
+### In order to use these saves, first diable `cloud saves`, then copy these files into `X:\Users\USERNAME\AppData\Local\SquareEnix\FinalFantasyXIII\save`
 
-Saves:
+#### The saves have a base shroud count of 4 Deceptisols and 3 Fortisols.
+#### These saves have the CP for RL2 in Chapter 8
+
+##### Bonus Shrouds:
+
+1. Aegisol Odin
+2. Deceptisol for Milvus Velocycle
+3. Fortisol Enki & Enlil
+4. Aegisol Cid Raines
+5. Aegisol Bahamut
+6. Fortisol Barthandelus 2
+7. Fortisol Proudclad 1
+
+##### Saves:
 
 1. Chapter 1:
-    * Save 1: Right after the Power Circle chest.
+    * Save 1: Before Myrmidon
 2. Chapter 2:
     * Save 2: Beginning Cutscene
     * Save 3: Anima
@@ -23,74 +37,63 @@ Saves:
     * Save 10: Beginning Cutscene
     * Save 11: Watchdrone x3 & Pulsework Soldier
     * Save 12: Right past the Ninurta Chest
-    * Save 13: Succubus & Incubus x2
-    * Save 14: Dreadnought
-    * Save 15: Corpse Gunner x4 & PSICOM Tracker
-    * Save 16: PSICOM Tracker x2
-    * Save 17: Odin
-    * Save 18: End of Chapter Fights
+    * Save 13: Dreadnought
+    * Save 14: Odin
+    * Save 15: End of Chapter Fights
 5. Chapter 5:
-    * Save 19: Beginning Cutscene
-    * Save 20: Silver Lobo x2
-    * Save 21: Corps Marksman x2 & Milvus Velocycle
+    * Save 16: Beginning Cutscene
+    * Save 17: Silver Lobo x2
+    * Save 18: Corps Marksman x2 & Milvus Velocycle
 6. Chapter 6:
-    * Save 22: Beginning Cutscene
-    * Save 23: Shop
-    * Save 24: Enki and Enlil
+    * Save 19: Beginning Cutscene
+    * Save 20: Enki and Enlil
 7. Chapter 7:
-    * Save 25: Beginning Cutscene
-    * Save 26: Orion
-    * Save 27: Ushu 1
-    * Save 28: Ushu 2
-    * Save 29: Hope's House 
-    * Save 30: PSICOM Bombardier & PSICOM Predator x2
+    * Save 21: Beginning Cutscene
+    * Save 22: Orion
+    * Save 23: Ushu 1
+    * Save 24: Ushu 2
+    * Save 25: Hope's House 
+    * Save 26: PSICOM Bombardier & PSICOM Predator x2
 8. Chapter 8:
-    * Save 31: Opening Cutscene
-    * Save 32: Nighttime Dodging Section
-    * Save 33: Midlight Reaper 
-    * Save 34: Brynhildr
+    * Save 27: Opening Cutscene
+    * Save 28: Midlight Reaper 
+    * Save 29: Brynhildr
 9. Chapter 9:
-    * Save 35: Beginning Cutscene
-    * Save 36: PSICOM Infiltrator x2 & PSICOM Raider
-    * Save 37: Flanborg & Flanitor
-    * Save 38: Shop
-    * Save 39: Thermadon & Vespid Soldier
-	* Save 40: Kalavinka Striker
-	* Save 41: Bridge Fights
-	* Save 42: Barthandelus 1
+    * Save 30: Beginning Cutscene
+    * Save 31: Flanborg & Flanitor
+    * Save 32: Thermadon & Vespid Soldier
+	* Save 33: Kalavinka Striker
+	* Save 34: Bridge Fights
+	* Save 35: Barthandelus 1
 10. Chapter 10:
-	* Save 43: Beginning Cutscene
-	* Save 44: Pulsework Knight x2
-	* Save 45: Cid
-	* Save 46: Bomb Elevator
-	* Save 47: Bird Elevator
-	* Save 48: Bahamut
+	* Save 36: Beginning Cutscene
+	* Save 37: Cid
+	* Save 38: Bahamut
 11. Chapter 11:
-	* Save 49: Beginning Cutscene
-	* Save 50: The Archylyte Steppe Menu
-	* Save 51: Rust Pudding Menu
-	* Save 52: Hecatoncheir
-	* Save 53: Gelatitan
-	* Save 54: Ambling Bellows & Cryptos x2
-	* Save 55: Gurangatch
-	* Save 56: Mushussu & Yakshini
-	* Save 57: Vetala
-	* Save 58: Chonchon x4 & Penanggalan
-	* Save 59: Dahaka
-	* Save 60: Barthandelus 2
+	* Save 39: Beginning Cutscene
+	* Save 40: Behemoth King & Megistotherian
+	* Save 41: Mah'habara Menu
+	* Save 42: Hecatoncheir
+	* Save 43: Gelatitan
+	* Save 44: Mushussu & Yakshini
+	* Save 45: Vetala
+	* Save 46: Dahaka
+    * Save 47: Seeker Dodge in Oerba
+	* Save 48: Barthandelus 2
 12. Chapter 12:
-	* Save 61: Beginning Cutscene
-	* Save 62: Bulwarker & Sanctum Seraph x2
-	* Save 63: PC 1
-	* Save 64: Adamanchelid
-	* Save 65: Vernal Harvest and Tyrant
-	* Save 66: PC 2
+	* Save 49: Beginning Cutscene
+	* Save 50: Bulwarker & Sanctum Seraph x2
+	* Save 51: PC 1
+	* Save 52: Adamanchelid
+	* Save 53: Dodges after Adamanchelid
+	* Save 54: Vernal Harvest and Tyrant
+	* Save 55: PC 2
 13. Chapter 13: 
-	* Save 67: Orphan's Cradle
-	* Save 69: Bandersnatch & Jabberwocky
-	* Save 70: Wladislaus
-	* Save 71: Tiamat Eliminator
-	* Save 72: Barthandelus 3
+	* Save 56: Orphan's Cradle
+	* Save 57: Bandersnatch & Jabberwocky
+	* Save 58: Wladislaus
+	* Save 59: Tiamat Eliminator
+	* Save 60: Barthandelus 3
 	
 
 
