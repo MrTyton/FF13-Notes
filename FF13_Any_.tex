@@ -17,6 +17,14 @@
 \usepackage[none]{hyphenat}
 \usepackage{graphicx}
 
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
 \hypersetup{
     colorlinks,
     citecolor=black,
@@ -46,6 +54,7 @@
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 \usepackage{graphicx}
 \title{FF13 Any\%}
+\subtitle{Console Version}
 \author{Mr.Tyton}
 \begin{document}
 \singlespacing
