@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  2 NOV 2019 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  2 NOV 2019 10:35
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -1152,10 +1152,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.532 A
-       ctivate the bridge ahead. While the bridge is extending, activate a D...
-[20]) (Chapters/chapter10.texpdfTeX warning (ext4): destination with the same i
-dentifier (name{page.}) has been already used, duplicate ignored
+l.573 \end{menu}
+                 [20]) (Chapters/chapter10.texpdfTeX warning (ext4): destinatio
+n with the same identifier (name{page.}) has been already used, duplicate ignor
+ed
 <to be read again> 
                    \relax 
 l.1 \chapter
@@ -1189,19 +1189,19 @@ l.192 \end{upgrade}
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.291 \newpage
+l.292 \newpage
                [24]pdfTeX warning (ext4): destination with the same identifier 
 (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.512 \end{battle}
+l.513 \end{battle}
                    [25]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.681 \newpage
+l.682 \newpage
                [26]
-Overfull \hbox (16.5124pt too wide) in paragraph at lines 852--853
+Overfull \hbox (16.5124pt too wide) in paragraph at lines 853--854
 [][] 
  []
 
@@ -1209,36 +1209,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.886 \end{multicols}
+l.887 \end{multicols}
                       [27]
-Overfull \hbox (2.30449pt too wide) in paragraph at lines 914--915
+Overfull \hbox (2.30449pt too wide) in paragraph at lines 915--916
 []\OT1/cmr/m/n/10 Repeat un-til \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m/n/10 , then
  use Thunder-Aerora 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 919--920
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
 []\OT1/cmr/m/n/10 Repeat FTFT pre-stagger, Thunder-Aerora
  []
 
 
-Overfull \hbox (4.10208pt too wide) in paragraph at lines 951--952
+Overfull \hbox (4.10208pt too wide) in paragraph at lines 952--953
 []\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder un-til Apop-to-sis,
  []
 
 
-Overfull \hbox (2.30449pt too wide) in paragraph at lines 972--973
+Overfull \hbox (2.30449pt too wide) in paragraph at lines 973--974
 []\OT1/cmr/m/n/10 Repeat un-til \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m/n/10 , then
  use Thunder-Aerora 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 977--978
+Underfull \hbox (badness 10000) in paragraph at lines 978--979
 []\OT1/cmr/m/n/10 Repeat FTFT pre-stagger, Thunder-Aerora
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 989--990
+Underfull \hbox (badness 10000) in paragraph at lines 990--991
 []\OT1/cmr/m/n/10 If sec-ond stag-ger ends, \OT1/cmr/bx/n/10 STAG-GER \OT1/cmr/
 m/n/10 with
  []
@@ -1383,7 +1383,7 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (37 pages, 290248 bytes).
+Output written on FF13_Any_.pdf (37 pages, 290245 bytes).
 PDF statistics:
  245 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
