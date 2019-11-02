@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  12 OCT 2019 13:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.12)  2 NOV 2019 10:33
 entering extended mode
 **./FF13_Any_.tex
 (FF13_Any_.tex
@@ -960,15 +960,13 @@ LaTeX Info: Redefining \nameref on input line 50.
 
  [1
 
-{C:/Users/Joshua/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+{C:/Users/Joshua/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (FF13_Any_
+.toc)
 \tf@toc=\write7
 \openout7 = `FF13_Any_.toc'.
 
-(Chapters/chapter1.texpdfTeX warning (ext4): destination with the same identifi
-er (name{page.}) has been already used, duplicate ignored
+ (Chapters/chapter1.texpdfTeX warning (ext4): destination with the same identif
+ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
@@ -1004,7 +1002,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.222 
+l.227 
        [4
 
 ]) (Chapters/chapter4.texpdfTeX warning (ext4): destination with the same ident
@@ -1241,13 +1239,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 977--978
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 989--990
-[]\OT1/cmr/m/n/10 If sec-ond stag-ger ends, \OT1/cmr/bx/n/10 STAG-GER\OT1/cmr/m
-/n/10 with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 989--990
-\OT1/cmr/m/n/10 Fire-Thunder-Fire-Thunder in [2], then use the
+[]\OT1/cmr/m/n/10 If sec-ond stag-ger ends, \OT1/cmr/bx/n/10 STAG-GER \OT1/cmr/
+m/n/10 with
  []
 
 ) (Chapters/chapter12.texpdfTeX warning (ext4): destination with the same ident
@@ -1288,7 +1281,7 @@ been already used, duplicate ignored
                    \relax 
 l.323 \newpage
                [30]
-<./Chapters/gil_pickups.png, id=130, 180.675pt x 95.6072pt>
+<./Chapters/gil_pickups.png, id=183, 180.675pt x 95.6072pt>
 File: ./Chapters/gil_pickups.png Graphic file (type png)
 <use ./Chapters/gil_pickups.png>
 Package pdftex.def Info: ./Chapters/gil_pickups.png  used on input line 327.
@@ -1367,21 +1360,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
  (FF13_Any_.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
-
-
-Package rerunfilecheck Warning: File `FF13_Any_.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `FF13_Any_.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  C2CB70494E946CEEDBE0C5EB567FCB97;597.
+Package rerunfilecheck Info: File `FF13_Any_.out' has not changed.
+(rerunfilecheck)             Checksum: C2CB70494E946CEEDBE0C5EB567FCB97;597.
  ) 
 Here is how much of TeX's memory you used:
- 26661 strings out of 492946
- 512053 string characters out of 3125822
- 708978 words of memory out of 3000000
- 30188 multiletter control sequences out of 15000+200000
+ 26677 strings out of 492946
+ 512272 string characters out of 3125822
+ 708899 words of memory out of 3000000
+ 30202 multiletter control sequences out of 15000+200000
  539651 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,15n,73p,835b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1397,9 +1383,9 @@ sfonts/cm/cmr12.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joshua/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joshua/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FF13_Any_.pdf (37 pages, 283392 bytes).
+Output written on FF13_Any_.pdf (37 pages, 290248 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 245 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
