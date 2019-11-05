@@ -1,6 +1,9 @@
 # FF13-Notes
 Final Fantasy 13 Speedrun Notes.
 
+This Repo is Unmaintained - Please check out the updated repo [here](https://github.com/MrTyton/Final-Fantasy-Speedruns)
+
+
 This main branch is the most up to date notes. Some of the strategies might be cutting edge stuff that might not fully work, but should be better.
 
 This is for PC strats. If you want Console Strats, then go to the Console Branch of this repo.
